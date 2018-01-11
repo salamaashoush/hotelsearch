@@ -1,0 +1,57 @@
+import React from "react";
+import PropTypes from "prop-types";
+import { withStyles } from "material-ui/styles";
+import Card, { CardHeader, CardContent } from "material-ui/Card";
+import Avatar from "material-ui/Avatar";
+import Typography from "material-ui/Typography";
+import red from "material-ui/colors/red";
+
+const styles = theme => ({
+  card: {
+    maxWidth: 400
+  },
+  media: {
+    height: 194
+  },
+  avatar: {
+    backgroundColor: red[500]
+  },
+  flexGrow: {
+    flex: "1 1 auto"
+  },
+  currency: {
+    fontSize: 10
+  }
+});
+
+class HotelCard extends React.Component {
+  render() {
+    const { classes, hotel } = this.props;
+
+    return (
+      <Card className={classes.card}>
+        <CardHeader
+          avatar={
+            <Avatar aria-label="Recipe" className={classes.avatar}>
+              {hotel.name[0]}
+            </Avatar>
+          }
+          title={hotel.name}
+          subheader={hotel.city}
+        />
+        <CardContent>
+          <Typography component="p" type="display1" align="left">
+            {hotel.price} <span className={classes.currency}>AED</span>
+          </Typography>
+        </CardContent>
+      </Card>
+    );
+  }
+}
+
+HotelCard.propTypes = {
+  classes: PropTypes.object.isRequired,
+  hotel: PropTypes.object.isRequired
+};
+
+export default withStyles(styles)(HotelCard);
