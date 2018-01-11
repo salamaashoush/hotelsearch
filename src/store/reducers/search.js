@@ -8,6 +8,11 @@ export default (state = initialState.search, action) => {
         ...state,
         hotels: action.payload
       };
+    case actionTypes.SET_AVAILABLE_HOTELS:
+      return {
+        ...state,
+        availableHotels: action.payload
+      };
     default:
       return state;
   }

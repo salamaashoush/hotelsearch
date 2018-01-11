@@ -1,5 +1,6 @@
 export default {
   search:{
-    hotels:[]
+    hotels:[],
+    availableHotels: []
   }
 };
