@@ -1,3 +1,3 @@
-
-export const SET_HOTELS = "/hotels/set";
-export const SET_AVAILABLE_HOTELS = "/hotels/set/available";
+export const SET_LOADING = "/search/loading/set";
+export const SET_HOTELS = "/search/hotels/set";
+export const SET_AVAILABLE_HOTELS = "/search/hotels/set/available";
