@@ -10,8 +10,8 @@ const setup = () => {
     search: jest.fn(),
     onChange: jest.fn(),
     range: {
-      start: "2020-10-09T22:00:00.000Z",
-      end: "2020-10-25T22:00:00.000Z"
+      start: "2020-10-09",
+      end: "2020-10-25"
     },
     history: { push: jest.fn() }
   };
@@ -42,14 +42,14 @@ describe(">>> Saerch > AvailabilityRange", () => {
   it("should change value when props is changed", () => {
     wrapper.setProps({
       range: {
-        start: "2020-11-12T22:00:00.000Z",
-        end: "2020-12-20T22:00:00.000Z"
+        start: "2020-11-12",
+        end: "2020-12-20"
       }
     });
     expect(wrapper).toMatchSnapshot();
     let start = wrapper.find(`input[data-test="start"]`);
     let end = wrapper.find(`input[data-test="end"]`);
-    expect(start.props().value).toEqual("13-11-2020");
-    expect(end.props().value).toEqual("21-12-2020");
+    expect(start.props().value).toEqual("12-11-2020");
+    expect(end.props().value).toEqual("20-12-2020");
   });
 });
