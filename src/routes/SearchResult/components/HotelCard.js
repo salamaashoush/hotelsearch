@@ -1,10 +1,10 @@
-import React from "react";
-import PropTypes from "prop-types";
-import { withStyles } from "material-ui/styles";
-import Card, { CardHeader, CardContent } from "material-ui/Card";
-import Avatar from "material-ui/Avatar";
-import Typography from "material-ui/Typography";
-import red from "material-ui/colors/red";
+import React from 'react';
+import PropTypes from 'prop-types';
+import { withStyles } from 'material-ui/styles';
+import Card, { CardHeader, CardContent } from 'material-ui/Card';
+import Avatar from 'material-ui/Avatar';
+import Typography from 'material-ui/Typography';
+import red from 'material-ui/colors/red';
 
 const styles = theme => ({
   card: {
@@ -17,7 +17,7 @@ const styles = theme => ({
     backgroundColor: red[500]
   },
   flexGrow: {
-    flex: "1 1 auto"
+    flex: '1 1 auto'
   },
   currency: {
     fontSize: 10
@@ -26,22 +26,22 @@ const styles = theme => ({
 
 class HotelCard extends React.Component {
   render() {
-    const { classes, hotel } = this.props;
+    const { classes, name, price, city } = this.props;
 
     return (
       <Card className={classes.card}>
         <CardHeader
           avatar={
             <Avatar aria-label="Recipe" className={classes.avatar}>
-              {hotel.name[0]}
+              {name[0]}
             </Avatar>
           }
-          title={hotel.name}
-          subheader={hotel.city}
+          title={name}
+          subheader={city}
         />
         <CardContent>
           <Typography component="p" type="display1" align="left">
-            {hotel.price} <span className={classes.currency}>AED</span>
+            {price} <span className={classes.currency}>AED</span>
           </Typography>
         </CardContent>
       </Card>
@@ -51,7 +51,9 @@ class HotelCard extends React.Component {
 
 HotelCard.propTypes = {
   classes: PropTypes.object.isRequired,
-  hotel: PropTypes.object.isRequired
+  name: PropTypes.string.isRequired,
+  city: PropTypes.string.isRequired,
+  price: PropTypes.number.isRequired
 };
 
 export default withStyles(styles)(HotelCard);

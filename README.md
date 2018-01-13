@@ -1,6 +1,7 @@
 [![Build Status](https://travis-ci.org/salamaashoush/hotelsearch.svg?branch=master)](https://travis-ci.org/salamaashoush/hotelsearch)
 [![Maintainability](https://api.codeclimate.com/v1/badges/e6971bcbb690e13ae233/maintainability)](https://codeclimate.com/github/salamaashoush/hotelsearch/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/e6971bcbb690e13ae233/test_coverage)](https://codeclimate.com/github/salamaashoush/hotelsearch/test_coverage)
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 

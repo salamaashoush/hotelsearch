@@ -1,10 +1,10 @@
-import React, {Component} from "react";
-import withStyles from "material-ui/styles/withStyles";
-import PropTypes from "prop-types";
-import {DatePicker} from "material-ui-pickers";
-import Button from "material-ui/Button";
-import Grid from "material-ui/Grid";
-import {IconButton, InputAdornment} from 'material-ui';
+import React, { Component } from 'react';
+import withStyles from 'material-ui/styles/withStyles';
+import PropTypes from 'prop-types';
+import { DatePicker } from 'material-ui-pickers';
+import Button from 'material-ui/Button';
+import Grid from 'material-ui/Grid';
+import { IconButton, InputAdornment } from 'material-ui';
 
 const styles = theme => ({
   button: {
@@ -13,30 +13,24 @@ const styles = theme => ({
 });
 
 class AvailabilityRange extends Component {
-  state = {
-    start: null,
-    end: null
-  };
-
   handleStartChange = date => {
-    this.setState({start: date});
+    this.props.onChange({ start: date });
   };
 
   handleEndChange = date => {
-    this.setState({end: date});
+    this.props.onChange({ end: date });
   };
 
   handleSearchClick = event => {
-    this.props.history.push('/result')
-    this.props.search({start: this.state.start, end: this.state.end});
+    this.props.history.push('/result');
+    this.props.search(this.props.range);
   };
   handleClearClick = event => {
-    this.setState({start: null, end: null});
+    this.props.onChange({ start: null, end: null });
   };
 
   render() {
-    const {start, end} = this.state;
-    const {classes} = this.props;
+    const { classes, range: { start, end } } = this.props;
     return (
       <Grid container justify="center">
         <Grid item>
@@ -51,7 +45,7 @@ class AvailabilityRange extends Component {
                 <InputAdornment position="end">
                   <IconButton> date_range </IconButton>
                 </InputAdornment>
-              ),
+              )
             }}
           />
         </Grid>
@@ -67,7 +61,7 @@ class AvailabilityRange extends Component {
                 <InputAdornment position="end">
                   <IconButton> date_range </IconButton>
                 </InputAdornment>
-              ),
+              )
             }}
           />
         </Grid>
@@ -81,7 +75,7 @@ class AvailabilityRange extends Component {
             Search
           </Button>
           <Button
-            disabled={!this.state.end && !this.state.start}
+            disabled={!end && !start}
             color="default"
             className={classes.button}
             onClick={this.handleClearClick}
@@ -97,6 +91,8 @@ class AvailabilityRange extends Component {
 AvailabilityRange.propTypes = {
   classes: PropTypes.object.isRequired,
   search: PropTypes.func.isRequired,
+  onChange: PropTypes.func.isRequired,
+  range: PropTypes.object.isRequired,
+  history: PropTypes.object.isRequired
 };
 export default withStyles(styles)(AvailabilityRange);
-
