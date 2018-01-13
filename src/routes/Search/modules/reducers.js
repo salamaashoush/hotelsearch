@@ -1,6 +1,6 @@
-import { combineReducers } from 'redux';
-import Types from './constants';
-import States from './initialState';
+import { combineReducers } from "redux";
+import Types from "./constants";
+import States from "./initialState";
 
 const hotels = (state = States.hotels, action) => {
   switch (action.type) {

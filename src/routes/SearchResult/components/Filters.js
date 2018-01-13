@@ -1,18 +1,18 @@
-import React from 'react';
-import withStyles from 'material-ui/styles/withStyles';
-import PropTypes from 'prop-types';
-import TextField from 'material-ui/TextField';
-import Grid from 'material-ui/Grid';
-import Slider from 'rc-slider';
-import 'rc-slider/assets/index.css';
+import React from "react";
+import withStyles from "material-ui/styles/withStyles";
+import PropTypes from "prop-types";
+import TextField from "material-ui/TextField";
+import Grid from "material-ui/Grid";
+import Slider from "rc-slider";
+import "rc-slider/assets/index.css";
 
 const styles = theme => ({
   button: {
     margin: theme.spacing.unit
   },
   container: {
-    display: 'flex',
-    justifyContent: 'flex-end'
+    display: "flex",
+    justifyContent: "flex-end"
   }
 });
 
@@ -31,7 +31,7 @@ const Filters = ({
         name="name"
         className={classes.textField}
         value={name}
-        onChange={({ target: { value } }) => onChange('name', value)}
+        onChange={({ target: { value } }) => onChange("name", value)}
         margin="normal"
       />
     </Grid>
@@ -43,7 +43,7 @@ const Filters = ({
         max={max}
         defaultValue={1}
         value={price}
-        onChange={value => onChange('price', value)}
+        onChange={value => onChange("price", value)}
       />
     </Grid>
   </Grid>

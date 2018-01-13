@@ -3,8 +3,8 @@ export default {
   totalNights: 0,
   loading: true,
   filters: {
-    name: '',
+    name: "",
     price: 1
   },
-  sortBy: 'name'
+  sortBy: "name"
 };

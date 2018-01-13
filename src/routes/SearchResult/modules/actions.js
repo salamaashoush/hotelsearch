@@ -1,4 +1,4 @@
-import Types from './constants';
+import Types from "./constants";
 
 export const setAvailableHotels = payload => ({
   type: Types.SET_AVAILABLE_HOTELS,

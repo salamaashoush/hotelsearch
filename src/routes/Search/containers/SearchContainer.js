@@ -1,17 +1,17 @@
-import React, { Component } from 'react';
-import { connect } from 'react-redux';
-import { withRouter } from 'react-router-dom';
-import withStyles from 'material-ui/styles/withStyles';
-import PropTypes from 'prop-types';
-import Grid from 'material-ui/Grid';
-import ReactPlaceholder from 'react-placeholder';
-import { fetchHotels, searchHotels, setRange } from '../modules/actions';
-import AvailabilityRange from '../components/AvailabilityRange';
-import PlaceHolder from '../../../shared/PlaceHolder';
+import React, { Component } from "react";
+import { connect } from "react-redux";
+import { withRouter } from "react-router-dom";
+import withStyles from "material-ui/styles/withStyles";
+import PropTypes from "prop-types";
+import Grid from "material-ui/Grid";
+import ReactPlaceholder from "react-placeholder";
+import { fetchHotels, searchHotels, setRange } from "../modules/actions";
+import AvailabilityRange from "../components/AvailabilityRange";
+import PlaceHolder from "../../../shared/PlaceHolder";
 const styles = theme => ({
   container: {
-    width: '100vw',
-    height: '100vh'
+    width: "100vw",
+    height: "100vh"
   }
 });
 
@@ -47,7 +47,7 @@ class SearchContainer extends Component {
       >
         <ReactPlaceholder
           ready={!isFetching}
-          style={{ background: 'none' }}
+          style={{ background: "none" }}
           customPlaceholder={<PlaceHolder />}
         >
           <AvailabilityRange

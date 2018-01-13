@@ -1,4 +1,4 @@
-import { createSelector } from 'reselect';
+import { createSelector } from "reselect";
 
 const getAvailableHotels = state => state.result.availableHotels;
 const getFilters = state => state.result.filters;

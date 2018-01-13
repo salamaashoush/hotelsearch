@@ -1,10 +1,10 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import { withStyles } from 'material-ui/styles';
-import Card, { CardHeader, CardContent } from 'material-ui/Card';
-import Avatar from 'material-ui/Avatar';
-import Typography from 'material-ui/Typography';
-import red from 'material-ui/colors/red';
+import React from "react";
+import PropTypes from "prop-types";
+import { withStyles } from "material-ui/styles";
+import Card, { CardHeader, CardContent } from "material-ui/Card";
+import Avatar from "material-ui/Avatar";
+import Typography from "material-ui/Typography";
+import red from "material-ui/colors/red";
 
 const styles = theme => ({
   card: {
@@ -17,7 +17,7 @@ const styles = theme => ({
     backgroundColor: red[500]
   },
   flexGrow: {
-    flex: '1 1 auto'
+    flex: "1 1 auto"
   },
   currency: {
     fontSize: 10

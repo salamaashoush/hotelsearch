@@ -1,15 +1,15 @@
-import { injectReducer } from '../../store/makeRootReducer';
+import { injectReducer } from "../../store/makeRootReducer";
 
 const resultRoute = store => {
   const getComponent = () => {
-    return import(/* webpackChunkName: "ResultContainer" */ './containers/ResultContainer');
+    return import(/* webpackChunkName: "ResultContainer" */ "./containers/ResultContainer");
   };
 
   const getReducer = () => {
-    return import(/* webpackChunkName: "resultReducer" */ './modules/reducers');
+    return import(/* webpackChunkName: "resultReducer" */ "./modules/reducers");
   };
 
-  injectReducer(store, { key: 'result', getReducer });
+  injectReducer(store, { key: "result", getReducer });
 
   return getComponent;
 };

@@ -1,27 +1,27 @@
-import React, { Component } from 'react';
-import { connect } from 'react-redux';
-import withStyles from 'material-ui/styles/withStyles';
-import PropTypes from 'prop-types';
-import Grid from 'material-ui/Grid';
-import Typography from 'material-ui/Typography';
-import { NavLink } from 'react-router-dom';
-import HotelCard from '../components/HotelCard';
-import Sort from '../components/Sort';
-import Filters from '../components/Filters';
-import { setSortBy, setFilters } from '../modules/actions';
-import { getFilteredHotels, getPriceRange } from '../modules/selectors';
+import React, { Component } from "react";
+import { connect } from "react-redux";
+import withStyles from "material-ui/styles/withStyles";
+import PropTypes from "prop-types";
+import Grid from "material-ui/Grid";
+import Typography from "material-ui/Typography";
+import { NavLink } from "react-router-dom";
+import HotelCard from "../components/HotelCard";
+import Sort from "../components/Sort";
+import Filters from "../components/Filters";
+import { setSortBy, setFilters } from "../modules/actions";
+import { getFilteredHotels, getPriceRange } from "../modules/selectors";
 
 const styles = theme => ({
   container: {
     padding: 20
   },
   empty: {
-    display: 'flex',
-    width: '100%',
-    height: '400px',
-    justifyContent: 'center',
-    alignItems: 'center',
-    flexDirection: 'column'
+    display: "flex",
+    width: "100%",
+    height: "400px",
+    justifyContent: "center",
+    alignItems: "center",
+    flexDirection: "column"
   }
 });
 

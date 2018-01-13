@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
-import withStyles from 'material-ui/styles/withStyles';
-import PropTypes from 'prop-types';
-import { DatePicker } from 'material-ui-pickers';
-import Button from 'material-ui/Button';
-import Grid from 'material-ui/Grid';
-import { IconButton, InputAdornment } from 'material-ui';
+import React, { Component } from "react";
+import withStyles from "material-ui/styles/withStyles";
+import PropTypes from "prop-types";
+import { DatePicker } from "material-ui-pickers";
+import Button from "material-ui/Button";
+import Grid from "material-ui/Grid";
+import { IconButton, InputAdornment } from "material-ui";
 
 const styles = theme => ({
   button: {
@@ -22,7 +22,7 @@ class AvailabilityRange extends Component {
   };
 
   handleSearchClick = event => {
-    this.props.history.push('/result');
+    this.props.history.push("/result");
     this.props.search(this.props.range);
   };
   handleClearClick = event => {

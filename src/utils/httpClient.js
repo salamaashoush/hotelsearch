@@ -1,5 +1,5 @@
-import axios from 'axios';
-import Api from '../api';
+import axios from "axios";
+import Api from "../api";
 
 // const AUTH_TOKEN = 'access_token';
 

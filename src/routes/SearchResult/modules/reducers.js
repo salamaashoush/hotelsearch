@@ -1,5 +1,5 @@
-import Types from './constants';
-import States from './initialState';
+import Types from "./constants";
+import States from "./initialState";
 
 const availableHotels = (state = States, action) => {
   switch (action.type) {
