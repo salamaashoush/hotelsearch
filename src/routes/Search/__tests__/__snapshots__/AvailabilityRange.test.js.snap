@@ -2178,8 +2178,8 @@ exports[`>>> Saerch > AvailabilityRange should change value when props is change
   onChange={[Function]}
   range={
     Object {
-      "end": 2020-05-10T22:00:00.000Z,
-      "start": 2020-11-29T22:00:00.000Z,
+      "end": "2020-12-20T22:00:00.000Z",
+      "start": "2020-11-12T22:00:00.000Z",
     }
   }
   search={[Function]}
@@ -2198,8 +2198,8 @@ exports[`>>> Saerch > AvailabilityRange should change value when props is change
     onChange={[Function]}
     range={
       Object {
-        "end": 2020-05-10T22:00:00.000Z,
-        "start": 2020-11-29T22:00:00.000Z,
+        "end": "2020-12-20T22:00:00.000Z",
+        "start": "2020-11-12T22:00:00.000Z",
       }
     }
     search={[Function]}
@@ -2660,7 +2660,7 @@ exports[`>>> Saerch > AvailabilityRange should change value when props is change
                           "setYear": [Function],
                         }
                       }
-                      value={2020-11-29T22:00:00.000Z}
+                      value="2020-11-12T22:00:00.000Z"
                     >
                       <ModalWrapper
                         InputProps={
@@ -2686,7 +2686,7 @@ exports[`>>> Saerch > AvailabilityRange should change value when props is change
                         onChange={[Function]}
                         onClear={[Function]}
                         onDismiss={[Function]}
-                        value={2020-11-29T22:00:00.000Z}
+                        value="2020-11-12T22:00:00.000Z"
                       >
                         <DateTextField
                           InputProps={
@@ -2714,7 +2714,7 @@ exports[`>>> Saerch > AvailabilityRange should change value when props is change
                           onChange={[Function]}
                           onClear={[Function]}
                           onClick={[Function]}
-                          value={2020-11-29T22:00:00.000Z}
+                          value="2020-11-12T22:00:00.000Z"
                         >
                           <TextField
                             InputProps={
@@ -2741,7 +2741,7 @@ exports[`>>> Saerch > AvailabilityRange should change value when props is change
                             onKeyPress={[Function]}
                             required={false}
                             select={false}
-                            value="30-11-2020"
+                            value="13-11-2020"
                           >
                             <WithStyles(FormControl)
                               error={false}
@@ -2795,7 +2795,7 @@ exports[`>>> Saerch > AvailabilityRange should change value when props is change
                                       }
                                     }
                                     onChange={[Function]}
-                                    value="30-11-2020"
+                                    value="13-11-2020"
                                   >
                                     <Input
                                       classes={
@@ -2838,7 +2838,7 @@ exports[`>>> Saerch > AvailabilityRange should change value when props is change
                                       multiline={false}
                                       onChange={[Function]}
                                       type="text"
-                                      value="30-11-2020"
+                                      value="13-11-2020"
                                     >
                                       <div
                                         className="MuiInput-root-95 MuiInput-formControl-96 MuiInput-inkbar-97 MuiInput-underline-101"
@@ -2853,7 +2853,7 @@ exports[`>>> Saerch > AvailabilityRange should change value when props is change
                                           disabled={false}
                                           onChange={[Function]}
                                           type="text"
-                                          value="30-11-2020"
+                                          value="13-11-2020"
                                         >
                                           <input
                                             aria-invalid={false}
@@ -2863,7 +2863,7 @@ exports[`>>> Saerch > AvailabilityRange should change value when props is change
                                             disabled={false}
                                             onChange={[Function]}
                                             type="text"
-                                            value="30-11-2020"
+                                            value="13-11-2020"
                                           />
                                         </Input>
                                         <WithStyles(InputAdornment)
@@ -3397,7 +3397,7 @@ exports[`>>> Saerch > AvailabilityRange should change value when props is change
                           "setYear": [Function],
                         }
                       }
-                      value={2020-05-10T22:00:00.000Z}
+                      value="2020-12-20T22:00:00.000Z"
                     >
                       <ModalWrapper
                         InputProps={
@@ -3423,7 +3423,7 @@ exports[`>>> Saerch > AvailabilityRange should change value when props is change
                         onChange={[Function]}
                         onClear={[Function]}
                         onDismiss={[Function]}
-                        value={2020-05-10T22:00:00.000Z}
+                        value="2020-12-20T22:00:00.000Z"
                       >
                         <DateTextField
                           InputProps={
@@ -3451,7 +3451,7 @@ exports[`>>> Saerch > AvailabilityRange should change value when props is change
                           onChange={[Function]}
                           onClear={[Function]}
                           onClick={[Function]}
-                          value={2020-05-10T22:00:00.000Z}
+                          value="2020-12-20T22:00:00.000Z"
                         >
                           <TextField
                             InputProps={
@@ -3478,7 +3478,7 @@ exports[`>>> Saerch > AvailabilityRange should change value when props is change
                             onKeyPress={[Function]}
                             required={false}
                             select={false}
-                            value="11-05-2020"
+                            value="21-12-2020"
                           >
                             <WithStyles(FormControl)
                               error={false}
@@ -3532,7 +3532,7 @@ exports[`>>> Saerch > AvailabilityRange should change value when props is change
                                       }
                                     }
                                     onChange={[Function]}
-                                    value="11-05-2020"
+                                    value="21-12-2020"
                                   >
                                     <Input
                                       classes={
@@ -3575,7 +3575,7 @@ exports[`>>> Saerch > AvailabilityRange should change value when props is change
                                       multiline={false}
                                       onChange={[Function]}
                                       type="text"
-                                      value="11-05-2020"
+                                      value="21-12-2020"
                                     >
                                       <div
                                         className="MuiInput-root-95 MuiInput-formControl-96 MuiInput-inkbar-97 MuiInput-underline-101"
@@ -3590,7 +3590,7 @@ exports[`>>> Saerch > AvailabilityRange should change value when props is change
                                           disabled={false}
                                           onChange={[Function]}
                                           type="text"
-                                          value="11-05-2020"
+                                          value="21-12-2020"
                                         >
                                           <input
                                             aria-invalid={false}
@@ -3600,7 +3600,7 @@ exports[`>>> Saerch > AvailabilityRange should change value when props is change
                                             disabled={false}
                                             onChange={[Function]}
                                             type="text"
-                                            value="11-05-2020"
+                                            value="21-12-2020"
                                           />
                                         </Input>
                                         <WithStyles(InputAdornment)
@@ -4376,8 +4376,8 @@ exports[`>>> Saerch > AvailabilityRange should render with start data & end date
   onChange={[Function]}
   range={
     Object {
-      "end": 2020-10-14T22:00:00.000Z,
-      "start": 2020-10-09T22:00:00.000Z,
+      "end": "2020-10-25T22:00:00.000Z",
+      "start": "2020-10-09T22:00:00.000Z",
     }
   }
   search={[Function]}
@@ -4396,8 +4396,8 @@ exports[`>>> Saerch > AvailabilityRange should render with start data & end date
     onChange={[Function]}
     range={
       Object {
-        "end": 2020-10-14T22:00:00.000Z,
-        "start": 2020-10-09T22:00:00.000Z,
+        "end": "2020-10-25T22:00:00.000Z",
+        "start": "2020-10-09T22:00:00.000Z",
       }
     }
     search={[Function]}
@@ -4858,7 +4858,7 @@ exports[`>>> Saerch > AvailabilityRange should render with start data & end date
                           "setYear": [Function],
                         }
                       }
-                      value={2020-10-09T22:00:00.000Z}
+                      value="2020-10-09T22:00:00.000Z"
                     >
                       <ModalWrapper
                         InputProps={
@@ -4884,7 +4884,7 @@ exports[`>>> Saerch > AvailabilityRange should render with start data & end date
                         onChange={[Function]}
                         onClear={[Function]}
                         onDismiss={[Function]}
-                        value={2020-10-09T22:00:00.000Z}
+                        value="2020-10-09T22:00:00.000Z"
                       >
                         <DateTextField
                           InputProps={
@@ -4912,7 +4912,7 @@ exports[`>>> Saerch > AvailabilityRange should render with start data & end date
                           onChange={[Function]}
                           onClear={[Function]}
                           onClick={[Function]}
-                          value={2020-10-09T22:00:00.000Z}
+                          value="2020-10-09T22:00:00.000Z"
                         >
                           <TextField
                             InputProps={
@@ -5595,7 +5595,7 @@ exports[`>>> Saerch > AvailabilityRange should render with start data & end date
                           "setYear": [Function],
                         }
                       }
-                      value={2020-10-14T22:00:00.000Z}
+                      value="2020-10-25T22:00:00.000Z"
                     >
                       <ModalWrapper
                         InputProps={
@@ -5621,7 +5621,7 @@ exports[`>>> Saerch > AvailabilityRange should render with start data & end date
                         onChange={[Function]}
                         onClear={[Function]}
                         onDismiss={[Function]}
-                        value={2020-10-14T22:00:00.000Z}
+                        value="2020-10-25T22:00:00.000Z"
                       >
                         <DateTextField
                           InputProps={
@@ -5649,7 +5649,7 @@ exports[`>>> Saerch > AvailabilityRange should render with start data & end date
                           onChange={[Function]}
                           onClear={[Function]}
                           onClick={[Function]}
-                          value={2020-10-14T22:00:00.000Z}
+                          value="2020-10-25T22:00:00.000Z"
                         >
                           <TextField
                             InputProps={
@@ -5676,7 +5676,7 @@ exports[`>>> Saerch > AvailabilityRange should render with start data & end date
                             onKeyPress={[Function]}
                             required={false}
                             select={false}
-                            value="15-10-2020"
+                            value="26-10-2020"
                           >
                             <WithStyles(FormControl)
                               error={false}
@@ -5730,7 +5730,7 @@ exports[`>>> Saerch > AvailabilityRange should render with start data & end date
                                       }
                                     }
                                     onChange={[Function]}
-                                    value="15-10-2020"
+                                    value="26-10-2020"
                                   >
                                     <Input
                                       classes={
@@ -5773,7 +5773,7 @@ exports[`>>> Saerch > AvailabilityRange should render with start data & end date
                                       multiline={false}
                                       onChange={[Function]}
                                       type="text"
-                                      value="15-10-2020"
+                                      value="26-10-2020"
                                     >
                                       <div
                                         className="MuiInput-root-95 MuiInput-formControl-96 MuiInput-inkbar-97 MuiInput-underline-101"
@@ -5788,7 +5788,7 @@ exports[`>>> Saerch > AvailabilityRange should render with start data & end date
                                           disabled={false}
                                           onChange={[Function]}
                                           type="text"
-                                          value="15-10-2020"
+                                          value="26-10-2020"
                                         >
                                           <input
                                             aria-invalid={false}
@@ -5798,7 +5798,7 @@ exports[`>>> Saerch > AvailabilityRange should render with start data & end date
                                             disabled={false}
                                             onChange={[Function]}
                                             type="text"
-                                            value="15-10-2020"
+                                            value="26-10-2020"
                                           />
                                         </Input>
                                         <WithStyles(InputAdornment)
