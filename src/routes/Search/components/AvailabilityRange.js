@@ -41,6 +41,9 @@ class AvailabilityRange extends Component {
             emptyLabel="From"
             format="DD-MM-YYYY"
             InputProps={{
+              inputProps: {
+                "data-test": "start"
+              },
               endAdornment: (
                 <InputAdornment position="end">
                   <IconButton> date_range </IconButton>
@@ -57,6 +60,9 @@ class AvailabilityRange extends Component {
             emptyLabel="To"
             format="DD-MM-YYYY"
             InputProps={{
+              inputProps: {
+                "data-test": "end"
+              },
               endAdornment: (
                 <InputAdornment position="end">
                   <IconButton> date_range </IconButton>
@@ -67,6 +73,7 @@ class AvailabilityRange extends Component {
         </Grid>
         <Grid item>
           <Button
+            data-test="search"
             raised
             color="primary"
             className={classes.button}
@@ -75,6 +82,7 @@ class AvailabilityRange extends Component {
             Search
           </Button>
           <Button
+            data-test="clear"
             disabled={!end && !start}
             color="default"
             className={classes.button}
