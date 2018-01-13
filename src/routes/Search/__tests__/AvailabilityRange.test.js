@@ -50,6 +50,6 @@ describe(">>> Saerch > AvailabilityRange", () => {
     let start = wrapper.find(`input[data-test="start"]`);
     let end = wrapper.find(`input[data-test="end"]`);
     expect(start.props().value).toEqual("12-11-2020");
-    expect(end.props().value).toEqual("20`-12-2020");
+    expect(end.props().value).toEqual("20-12-2020");
   });
 });
