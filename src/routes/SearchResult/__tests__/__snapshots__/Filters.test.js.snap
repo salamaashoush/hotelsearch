@@ -1,0 +1,980 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`>>> SaerchResult > Filters should render 1`] = `
+<WithStyles(Filters)
+  classes={Object {}}
+  filters={
+    Object {
+      "name": "",
+      "price": 1,
+    }
+  }
+  onChange={[Function]}
+  priceRange={
+    Object {
+      "max": 1,
+      "min": 0,
+    }
+  }
+>
+  <Filters
+    classes={
+      Object {
+        "button": "Filters-button-1",
+        "container": "Filters-container-2",
+      }
+    }
+    filters={
+      Object {
+        "name": "",
+        "price": 1,
+      }
+    }
+    onChange={[Function]}
+    priceRange={
+      Object {
+        "max": 1,
+        "min": 0,
+      }
+    }
+  >
+    <WithStyles(GridWrapper)
+      container={true}
+    >
+      <GridWrapper
+        classes={
+          Object {
+            "align-content-xs-center": "MuiGrid-align-content-xs-center-14",
+            "align-content-xs-flex-end": "MuiGrid-align-content-xs-flex-end-16",
+            "align-content-xs-flex-start": "MuiGrid-align-content-xs-flex-start-15",
+            "align-content-xs-space-around": "MuiGrid-align-content-xs-space-around-18",
+            "align-content-xs-space-between": "MuiGrid-align-content-xs-space-between-17",
+            "align-items-xs-baseline": "MuiGrid-align-items-xs-baseline-13",
+            "align-items-xs-center": "MuiGrid-align-items-xs-center-10",
+            "align-items-xs-flex-end": "MuiGrid-align-items-xs-flex-end-12",
+            "align-items-xs-flex-start": "MuiGrid-align-items-xs-flex-start-11",
+            "direction-xs-column": "MuiGrid-direction-xs-column-5",
+            "direction-xs-column-reverse": "MuiGrid-direction-xs-column-reverse-6",
+            "direction-xs-row-reverse": "MuiGrid-direction-xs-row-reverse-7",
+            "grid-lg": "MuiGrid-grid-lg-66",
+            "grid-lg-1": "MuiGrid-grid-lg-1-67",
+            "grid-lg-10": "MuiGrid-grid-lg-10-76",
+            "grid-lg-11": "MuiGrid-grid-lg-11-77",
+            "grid-lg-12": "MuiGrid-grid-lg-12-78",
+            "grid-lg-2": "MuiGrid-grid-lg-2-68",
+            "grid-lg-3": "MuiGrid-grid-lg-3-69",
+            "grid-lg-4": "MuiGrid-grid-lg-4-70",
+            "grid-lg-5": "MuiGrid-grid-lg-5-71",
+            "grid-lg-6": "MuiGrid-grid-lg-6-72",
+            "grid-lg-7": "MuiGrid-grid-lg-7-73",
+            "grid-lg-8": "MuiGrid-grid-lg-8-74",
+            "grid-lg-9": "MuiGrid-grid-lg-9-75",
+            "grid-md": "MuiGrid-grid-md-53",
+            "grid-md-1": "MuiGrid-grid-md-1-54",
+            "grid-md-10": "MuiGrid-grid-md-10-63",
+            "grid-md-11": "MuiGrid-grid-md-11-64",
+            "grid-md-12": "MuiGrid-grid-md-12-65",
+            "grid-md-2": "MuiGrid-grid-md-2-55",
+            "grid-md-3": "MuiGrid-grid-md-3-56",
+            "grid-md-4": "MuiGrid-grid-md-4-57",
+            "grid-md-5": "MuiGrid-grid-md-5-58",
+            "grid-md-6": "MuiGrid-grid-md-6-59",
+            "grid-md-7": "MuiGrid-grid-md-7-60",
+            "grid-md-8": "MuiGrid-grid-md-8-61",
+            "grid-md-9": "MuiGrid-grid-md-9-62",
+            "grid-sm": "MuiGrid-grid-sm-40",
+            "grid-sm-1": "MuiGrid-grid-sm-1-41",
+            "grid-sm-10": "MuiGrid-grid-sm-10-50",
+            "grid-sm-11": "MuiGrid-grid-sm-11-51",
+            "grid-sm-12": "MuiGrid-grid-sm-12-52",
+            "grid-sm-2": "MuiGrid-grid-sm-2-42",
+            "grid-sm-3": "MuiGrid-grid-sm-3-43",
+            "grid-sm-4": "MuiGrid-grid-sm-4-44",
+            "grid-sm-5": "MuiGrid-grid-sm-5-45",
+            "grid-sm-6": "MuiGrid-grid-sm-6-46",
+            "grid-sm-7": "MuiGrid-grid-sm-7-47",
+            "grid-sm-8": "MuiGrid-grid-sm-8-48",
+            "grid-sm-9": "MuiGrid-grid-sm-9-49",
+            "grid-xl": "MuiGrid-grid-xl-79",
+            "grid-xl-1": "MuiGrid-grid-xl-1-80",
+            "grid-xl-10": "MuiGrid-grid-xl-10-89",
+            "grid-xl-11": "MuiGrid-grid-xl-11-90",
+            "grid-xl-12": "MuiGrid-grid-xl-12-91",
+            "grid-xl-2": "MuiGrid-grid-xl-2-81",
+            "grid-xl-3": "MuiGrid-grid-xl-3-82",
+            "grid-xl-4": "MuiGrid-grid-xl-4-83",
+            "grid-xl-5": "MuiGrid-grid-xl-5-84",
+            "grid-xl-6": "MuiGrid-grid-xl-6-85",
+            "grid-xl-7": "MuiGrid-grid-xl-7-86",
+            "grid-xl-8": "MuiGrid-grid-xl-8-87",
+            "grid-xl-9": "MuiGrid-grid-xl-9-88",
+            "grid-xs": "MuiGrid-grid-xs-27",
+            "grid-xs-1": "MuiGrid-grid-xs-1-28",
+            "grid-xs-10": "MuiGrid-grid-xs-10-37",
+            "grid-xs-11": "MuiGrid-grid-xs-11-38",
+            "grid-xs-12": "MuiGrid-grid-xs-12-39",
+            "grid-xs-2": "MuiGrid-grid-xs-2-29",
+            "grid-xs-3": "MuiGrid-grid-xs-3-30",
+            "grid-xs-4": "MuiGrid-grid-xs-4-31",
+            "grid-xs-5": "MuiGrid-grid-xs-5-32",
+            "grid-xs-6": "MuiGrid-grid-xs-6-33",
+            "grid-xs-7": "MuiGrid-grid-xs-7-34",
+            "grid-xs-8": "MuiGrid-grid-xs-8-35",
+            "grid-xs-9": "MuiGrid-grid-xs-9-36",
+            "justify-xs-center": "MuiGrid-justify-xs-center-19",
+            "justify-xs-flex-end": "MuiGrid-justify-xs-flex-end-20",
+            "justify-xs-space-around": "MuiGrid-justify-xs-space-around-22",
+            "justify-xs-space-between": "MuiGrid-justify-xs-space-between-21",
+            "spacing-xs-16": "MuiGrid-spacing-xs-16-24",
+            "spacing-xs-24": "MuiGrid-spacing-xs-24-25",
+            "spacing-xs-40": "MuiGrid-spacing-xs-40-26",
+            "spacing-xs-8": "MuiGrid-spacing-xs-8-23",
+            "typeContainer": "MuiGrid-typeContainer-3",
+            "typeItem": "MuiGrid-typeItem-4",
+            "wrap-xs-nowrap": "MuiGrid-wrap-xs-nowrap-8",
+            "wrap-xs-wrap-reverse": "MuiGrid-wrap-xs-wrap-reverse-9",
+          }
+        }
+        container={true}
+      >
+        <Grid
+          alignContent="stretch"
+          alignItems="stretch"
+          classes={
+            Object {
+              "align-content-xs-center": "MuiGrid-align-content-xs-center-14",
+              "align-content-xs-flex-end": "MuiGrid-align-content-xs-flex-end-16",
+              "align-content-xs-flex-start": "MuiGrid-align-content-xs-flex-start-15",
+              "align-content-xs-space-around": "MuiGrid-align-content-xs-space-around-18",
+              "align-content-xs-space-between": "MuiGrid-align-content-xs-space-between-17",
+              "align-items-xs-baseline": "MuiGrid-align-items-xs-baseline-13",
+              "align-items-xs-center": "MuiGrid-align-items-xs-center-10",
+              "align-items-xs-flex-end": "MuiGrid-align-items-xs-flex-end-12",
+              "align-items-xs-flex-start": "MuiGrid-align-items-xs-flex-start-11",
+              "direction-xs-column": "MuiGrid-direction-xs-column-5",
+              "direction-xs-column-reverse": "MuiGrid-direction-xs-column-reverse-6",
+              "direction-xs-row-reverse": "MuiGrid-direction-xs-row-reverse-7",
+              "grid-lg": "MuiGrid-grid-lg-66",
+              "grid-lg-1": "MuiGrid-grid-lg-1-67",
+              "grid-lg-10": "MuiGrid-grid-lg-10-76",
+              "grid-lg-11": "MuiGrid-grid-lg-11-77",
+              "grid-lg-12": "MuiGrid-grid-lg-12-78",
+              "grid-lg-2": "MuiGrid-grid-lg-2-68",
+              "grid-lg-3": "MuiGrid-grid-lg-3-69",
+              "grid-lg-4": "MuiGrid-grid-lg-4-70",
+              "grid-lg-5": "MuiGrid-grid-lg-5-71",
+              "grid-lg-6": "MuiGrid-grid-lg-6-72",
+              "grid-lg-7": "MuiGrid-grid-lg-7-73",
+              "grid-lg-8": "MuiGrid-grid-lg-8-74",
+              "grid-lg-9": "MuiGrid-grid-lg-9-75",
+              "grid-md": "MuiGrid-grid-md-53",
+              "grid-md-1": "MuiGrid-grid-md-1-54",
+              "grid-md-10": "MuiGrid-grid-md-10-63",
+              "grid-md-11": "MuiGrid-grid-md-11-64",
+              "grid-md-12": "MuiGrid-grid-md-12-65",
+              "grid-md-2": "MuiGrid-grid-md-2-55",
+              "grid-md-3": "MuiGrid-grid-md-3-56",
+              "grid-md-4": "MuiGrid-grid-md-4-57",
+              "grid-md-5": "MuiGrid-grid-md-5-58",
+              "grid-md-6": "MuiGrid-grid-md-6-59",
+              "grid-md-7": "MuiGrid-grid-md-7-60",
+              "grid-md-8": "MuiGrid-grid-md-8-61",
+              "grid-md-9": "MuiGrid-grid-md-9-62",
+              "grid-sm": "MuiGrid-grid-sm-40",
+              "grid-sm-1": "MuiGrid-grid-sm-1-41",
+              "grid-sm-10": "MuiGrid-grid-sm-10-50",
+              "grid-sm-11": "MuiGrid-grid-sm-11-51",
+              "grid-sm-12": "MuiGrid-grid-sm-12-52",
+              "grid-sm-2": "MuiGrid-grid-sm-2-42",
+              "grid-sm-3": "MuiGrid-grid-sm-3-43",
+              "grid-sm-4": "MuiGrid-grid-sm-4-44",
+              "grid-sm-5": "MuiGrid-grid-sm-5-45",
+              "grid-sm-6": "MuiGrid-grid-sm-6-46",
+              "grid-sm-7": "MuiGrid-grid-sm-7-47",
+              "grid-sm-8": "MuiGrid-grid-sm-8-48",
+              "grid-sm-9": "MuiGrid-grid-sm-9-49",
+              "grid-xl": "MuiGrid-grid-xl-79",
+              "grid-xl-1": "MuiGrid-grid-xl-1-80",
+              "grid-xl-10": "MuiGrid-grid-xl-10-89",
+              "grid-xl-11": "MuiGrid-grid-xl-11-90",
+              "grid-xl-12": "MuiGrid-grid-xl-12-91",
+              "grid-xl-2": "MuiGrid-grid-xl-2-81",
+              "grid-xl-3": "MuiGrid-grid-xl-3-82",
+              "grid-xl-4": "MuiGrid-grid-xl-4-83",
+              "grid-xl-5": "MuiGrid-grid-xl-5-84",
+              "grid-xl-6": "MuiGrid-grid-xl-6-85",
+              "grid-xl-7": "MuiGrid-grid-xl-7-86",
+              "grid-xl-8": "MuiGrid-grid-xl-8-87",
+              "grid-xl-9": "MuiGrid-grid-xl-9-88",
+              "grid-xs": "MuiGrid-grid-xs-27",
+              "grid-xs-1": "MuiGrid-grid-xs-1-28",
+              "grid-xs-10": "MuiGrid-grid-xs-10-37",
+              "grid-xs-11": "MuiGrid-grid-xs-11-38",
+              "grid-xs-12": "MuiGrid-grid-xs-12-39",
+              "grid-xs-2": "MuiGrid-grid-xs-2-29",
+              "grid-xs-3": "MuiGrid-grid-xs-3-30",
+              "grid-xs-4": "MuiGrid-grid-xs-4-31",
+              "grid-xs-5": "MuiGrid-grid-xs-5-32",
+              "grid-xs-6": "MuiGrid-grid-xs-6-33",
+              "grid-xs-7": "MuiGrid-grid-xs-7-34",
+              "grid-xs-8": "MuiGrid-grid-xs-8-35",
+              "grid-xs-9": "MuiGrid-grid-xs-9-36",
+              "justify-xs-center": "MuiGrid-justify-xs-center-19",
+              "justify-xs-flex-end": "MuiGrid-justify-xs-flex-end-20",
+              "justify-xs-space-around": "MuiGrid-justify-xs-space-around-22",
+              "justify-xs-space-between": "MuiGrid-justify-xs-space-between-21",
+              "spacing-xs-16": "MuiGrid-spacing-xs-16-24",
+              "spacing-xs-24": "MuiGrid-spacing-xs-24-25",
+              "spacing-xs-40": "MuiGrid-spacing-xs-40-26",
+              "spacing-xs-8": "MuiGrid-spacing-xs-8-23",
+              "typeContainer": "MuiGrid-typeContainer-3",
+              "typeItem": "MuiGrid-typeItem-4",
+              "wrap-xs-nowrap": "MuiGrid-wrap-xs-nowrap-8",
+              "wrap-xs-wrap-reverse": "MuiGrid-wrap-xs-wrap-reverse-9",
+            }
+          }
+          component="div"
+          container={true}
+          direction="row"
+          item={false}
+          justify="flex-start"
+          spacing={16}
+          wrap="wrap"
+        >
+          <div
+            className="MuiGrid-typeContainer-3 MuiGrid-spacing-xs-16-24"
+          >
+            <WithStyles(GridWrapper)
+              item={true}
+              sm={6}
+              xs={12}
+            >
+              <GridWrapper
+                classes={
+                  Object {
+                    "align-content-xs-center": "MuiGrid-align-content-xs-center-14",
+                    "align-content-xs-flex-end": "MuiGrid-align-content-xs-flex-end-16",
+                    "align-content-xs-flex-start": "MuiGrid-align-content-xs-flex-start-15",
+                    "align-content-xs-space-around": "MuiGrid-align-content-xs-space-around-18",
+                    "align-content-xs-space-between": "MuiGrid-align-content-xs-space-between-17",
+                    "align-items-xs-baseline": "MuiGrid-align-items-xs-baseline-13",
+                    "align-items-xs-center": "MuiGrid-align-items-xs-center-10",
+                    "align-items-xs-flex-end": "MuiGrid-align-items-xs-flex-end-12",
+                    "align-items-xs-flex-start": "MuiGrid-align-items-xs-flex-start-11",
+                    "direction-xs-column": "MuiGrid-direction-xs-column-5",
+                    "direction-xs-column-reverse": "MuiGrid-direction-xs-column-reverse-6",
+                    "direction-xs-row-reverse": "MuiGrid-direction-xs-row-reverse-7",
+                    "grid-lg": "MuiGrid-grid-lg-66",
+                    "grid-lg-1": "MuiGrid-grid-lg-1-67",
+                    "grid-lg-10": "MuiGrid-grid-lg-10-76",
+                    "grid-lg-11": "MuiGrid-grid-lg-11-77",
+                    "grid-lg-12": "MuiGrid-grid-lg-12-78",
+                    "grid-lg-2": "MuiGrid-grid-lg-2-68",
+                    "grid-lg-3": "MuiGrid-grid-lg-3-69",
+                    "grid-lg-4": "MuiGrid-grid-lg-4-70",
+                    "grid-lg-5": "MuiGrid-grid-lg-5-71",
+                    "grid-lg-6": "MuiGrid-grid-lg-6-72",
+                    "grid-lg-7": "MuiGrid-grid-lg-7-73",
+                    "grid-lg-8": "MuiGrid-grid-lg-8-74",
+                    "grid-lg-9": "MuiGrid-grid-lg-9-75",
+                    "grid-md": "MuiGrid-grid-md-53",
+                    "grid-md-1": "MuiGrid-grid-md-1-54",
+                    "grid-md-10": "MuiGrid-grid-md-10-63",
+                    "grid-md-11": "MuiGrid-grid-md-11-64",
+                    "grid-md-12": "MuiGrid-grid-md-12-65",
+                    "grid-md-2": "MuiGrid-grid-md-2-55",
+                    "grid-md-3": "MuiGrid-grid-md-3-56",
+                    "grid-md-4": "MuiGrid-grid-md-4-57",
+                    "grid-md-5": "MuiGrid-grid-md-5-58",
+                    "grid-md-6": "MuiGrid-grid-md-6-59",
+                    "grid-md-7": "MuiGrid-grid-md-7-60",
+                    "grid-md-8": "MuiGrid-grid-md-8-61",
+                    "grid-md-9": "MuiGrid-grid-md-9-62",
+                    "grid-sm": "MuiGrid-grid-sm-40",
+                    "grid-sm-1": "MuiGrid-grid-sm-1-41",
+                    "grid-sm-10": "MuiGrid-grid-sm-10-50",
+                    "grid-sm-11": "MuiGrid-grid-sm-11-51",
+                    "grid-sm-12": "MuiGrid-grid-sm-12-52",
+                    "grid-sm-2": "MuiGrid-grid-sm-2-42",
+                    "grid-sm-3": "MuiGrid-grid-sm-3-43",
+                    "grid-sm-4": "MuiGrid-grid-sm-4-44",
+                    "grid-sm-5": "MuiGrid-grid-sm-5-45",
+                    "grid-sm-6": "MuiGrid-grid-sm-6-46",
+                    "grid-sm-7": "MuiGrid-grid-sm-7-47",
+                    "grid-sm-8": "MuiGrid-grid-sm-8-48",
+                    "grid-sm-9": "MuiGrid-grid-sm-9-49",
+                    "grid-xl": "MuiGrid-grid-xl-79",
+                    "grid-xl-1": "MuiGrid-grid-xl-1-80",
+                    "grid-xl-10": "MuiGrid-grid-xl-10-89",
+                    "grid-xl-11": "MuiGrid-grid-xl-11-90",
+                    "grid-xl-12": "MuiGrid-grid-xl-12-91",
+                    "grid-xl-2": "MuiGrid-grid-xl-2-81",
+                    "grid-xl-3": "MuiGrid-grid-xl-3-82",
+                    "grid-xl-4": "MuiGrid-grid-xl-4-83",
+                    "grid-xl-5": "MuiGrid-grid-xl-5-84",
+                    "grid-xl-6": "MuiGrid-grid-xl-6-85",
+                    "grid-xl-7": "MuiGrid-grid-xl-7-86",
+                    "grid-xl-8": "MuiGrid-grid-xl-8-87",
+                    "grid-xl-9": "MuiGrid-grid-xl-9-88",
+                    "grid-xs": "MuiGrid-grid-xs-27",
+                    "grid-xs-1": "MuiGrid-grid-xs-1-28",
+                    "grid-xs-10": "MuiGrid-grid-xs-10-37",
+                    "grid-xs-11": "MuiGrid-grid-xs-11-38",
+                    "grid-xs-12": "MuiGrid-grid-xs-12-39",
+                    "grid-xs-2": "MuiGrid-grid-xs-2-29",
+                    "grid-xs-3": "MuiGrid-grid-xs-3-30",
+                    "grid-xs-4": "MuiGrid-grid-xs-4-31",
+                    "grid-xs-5": "MuiGrid-grid-xs-5-32",
+                    "grid-xs-6": "MuiGrid-grid-xs-6-33",
+                    "grid-xs-7": "MuiGrid-grid-xs-7-34",
+                    "grid-xs-8": "MuiGrid-grid-xs-8-35",
+                    "grid-xs-9": "MuiGrid-grid-xs-9-36",
+                    "justify-xs-center": "MuiGrid-justify-xs-center-19",
+                    "justify-xs-flex-end": "MuiGrid-justify-xs-flex-end-20",
+                    "justify-xs-space-around": "MuiGrid-justify-xs-space-around-22",
+                    "justify-xs-space-between": "MuiGrid-justify-xs-space-between-21",
+                    "spacing-xs-16": "MuiGrid-spacing-xs-16-24",
+                    "spacing-xs-24": "MuiGrid-spacing-xs-24-25",
+                    "spacing-xs-40": "MuiGrid-spacing-xs-40-26",
+                    "spacing-xs-8": "MuiGrid-spacing-xs-8-23",
+                    "typeContainer": "MuiGrid-typeContainer-3",
+                    "typeItem": "MuiGrid-typeItem-4",
+                    "wrap-xs-nowrap": "MuiGrid-wrap-xs-nowrap-8",
+                    "wrap-xs-wrap-reverse": "MuiGrid-wrap-xs-wrap-reverse-9",
+                  }
+                }
+                item={true}
+                sm={6}
+                xs={12}
+              >
+                <Grid
+                  alignContent="stretch"
+                  alignItems="stretch"
+                  classes={
+                    Object {
+                      "align-content-xs-center": "MuiGrid-align-content-xs-center-14",
+                      "align-content-xs-flex-end": "MuiGrid-align-content-xs-flex-end-16",
+                      "align-content-xs-flex-start": "MuiGrid-align-content-xs-flex-start-15",
+                      "align-content-xs-space-around": "MuiGrid-align-content-xs-space-around-18",
+                      "align-content-xs-space-between": "MuiGrid-align-content-xs-space-between-17",
+                      "align-items-xs-baseline": "MuiGrid-align-items-xs-baseline-13",
+                      "align-items-xs-center": "MuiGrid-align-items-xs-center-10",
+                      "align-items-xs-flex-end": "MuiGrid-align-items-xs-flex-end-12",
+                      "align-items-xs-flex-start": "MuiGrid-align-items-xs-flex-start-11",
+                      "direction-xs-column": "MuiGrid-direction-xs-column-5",
+                      "direction-xs-column-reverse": "MuiGrid-direction-xs-column-reverse-6",
+                      "direction-xs-row-reverse": "MuiGrid-direction-xs-row-reverse-7",
+                      "grid-lg": "MuiGrid-grid-lg-66",
+                      "grid-lg-1": "MuiGrid-grid-lg-1-67",
+                      "grid-lg-10": "MuiGrid-grid-lg-10-76",
+                      "grid-lg-11": "MuiGrid-grid-lg-11-77",
+                      "grid-lg-12": "MuiGrid-grid-lg-12-78",
+                      "grid-lg-2": "MuiGrid-grid-lg-2-68",
+                      "grid-lg-3": "MuiGrid-grid-lg-3-69",
+                      "grid-lg-4": "MuiGrid-grid-lg-4-70",
+                      "grid-lg-5": "MuiGrid-grid-lg-5-71",
+                      "grid-lg-6": "MuiGrid-grid-lg-6-72",
+                      "grid-lg-7": "MuiGrid-grid-lg-7-73",
+                      "grid-lg-8": "MuiGrid-grid-lg-8-74",
+                      "grid-lg-9": "MuiGrid-grid-lg-9-75",
+                      "grid-md": "MuiGrid-grid-md-53",
+                      "grid-md-1": "MuiGrid-grid-md-1-54",
+                      "grid-md-10": "MuiGrid-grid-md-10-63",
+                      "grid-md-11": "MuiGrid-grid-md-11-64",
+                      "grid-md-12": "MuiGrid-grid-md-12-65",
+                      "grid-md-2": "MuiGrid-grid-md-2-55",
+                      "grid-md-3": "MuiGrid-grid-md-3-56",
+                      "grid-md-4": "MuiGrid-grid-md-4-57",
+                      "grid-md-5": "MuiGrid-grid-md-5-58",
+                      "grid-md-6": "MuiGrid-grid-md-6-59",
+                      "grid-md-7": "MuiGrid-grid-md-7-60",
+                      "grid-md-8": "MuiGrid-grid-md-8-61",
+                      "grid-md-9": "MuiGrid-grid-md-9-62",
+                      "grid-sm": "MuiGrid-grid-sm-40",
+                      "grid-sm-1": "MuiGrid-grid-sm-1-41",
+                      "grid-sm-10": "MuiGrid-grid-sm-10-50",
+                      "grid-sm-11": "MuiGrid-grid-sm-11-51",
+                      "grid-sm-12": "MuiGrid-grid-sm-12-52",
+                      "grid-sm-2": "MuiGrid-grid-sm-2-42",
+                      "grid-sm-3": "MuiGrid-grid-sm-3-43",
+                      "grid-sm-4": "MuiGrid-grid-sm-4-44",
+                      "grid-sm-5": "MuiGrid-grid-sm-5-45",
+                      "grid-sm-6": "MuiGrid-grid-sm-6-46",
+                      "grid-sm-7": "MuiGrid-grid-sm-7-47",
+                      "grid-sm-8": "MuiGrid-grid-sm-8-48",
+                      "grid-sm-9": "MuiGrid-grid-sm-9-49",
+                      "grid-xl": "MuiGrid-grid-xl-79",
+                      "grid-xl-1": "MuiGrid-grid-xl-1-80",
+                      "grid-xl-10": "MuiGrid-grid-xl-10-89",
+                      "grid-xl-11": "MuiGrid-grid-xl-11-90",
+                      "grid-xl-12": "MuiGrid-grid-xl-12-91",
+                      "grid-xl-2": "MuiGrid-grid-xl-2-81",
+                      "grid-xl-3": "MuiGrid-grid-xl-3-82",
+                      "grid-xl-4": "MuiGrid-grid-xl-4-83",
+                      "grid-xl-5": "MuiGrid-grid-xl-5-84",
+                      "grid-xl-6": "MuiGrid-grid-xl-6-85",
+                      "grid-xl-7": "MuiGrid-grid-xl-7-86",
+                      "grid-xl-8": "MuiGrid-grid-xl-8-87",
+                      "grid-xl-9": "MuiGrid-grid-xl-9-88",
+                      "grid-xs": "MuiGrid-grid-xs-27",
+                      "grid-xs-1": "MuiGrid-grid-xs-1-28",
+                      "grid-xs-10": "MuiGrid-grid-xs-10-37",
+                      "grid-xs-11": "MuiGrid-grid-xs-11-38",
+                      "grid-xs-12": "MuiGrid-grid-xs-12-39",
+                      "grid-xs-2": "MuiGrid-grid-xs-2-29",
+                      "grid-xs-3": "MuiGrid-grid-xs-3-30",
+                      "grid-xs-4": "MuiGrid-grid-xs-4-31",
+                      "grid-xs-5": "MuiGrid-grid-xs-5-32",
+                      "grid-xs-6": "MuiGrid-grid-xs-6-33",
+                      "grid-xs-7": "MuiGrid-grid-xs-7-34",
+                      "grid-xs-8": "MuiGrid-grid-xs-8-35",
+                      "grid-xs-9": "MuiGrid-grid-xs-9-36",
+                      "justify-xs-center": "MuiGrid-justify-xs-center-19",
+                      "justify-xs-flex-end": "MuiGrid-justify-xs-flex-end-20",
+                      "justify-xs-space-around": "MuiGrid-justify-xs-space-around-22",
+                      "justify-xs-space-between": "MuiGrid-justify-xs-space-between-21",
+                      "spacing-xs-16": "MuiGrid-spacing-xs-16-24",
+                      "spacing-xs-24": "MuiGrid-spacing-xs-24-25",
+                      "spacing-xs-40": "MuiGrid-spacing-xs-40-26",
+                      "spacing-xs-8": "MuiGrid-spacing-xs-8-23",
+                      "typeContainer": "MuiGrid-typeContainer-3",
+                      "typeItem": "MuiGrid-typeItem-4",
+                      "wrap-xs-nowrap": "MuiGrid-wrap-xs-nowrap-8",
+                      "wrap-xs-wrap-reverse": "MuiGrid-wrap-xs-wrap-reverse-9",
+                    }
+                  }
+                  component="div"
+                  container={false}
+                  direction="row"
+                  item={true}
+                  justify="flex-start"
+                  sm={6}
+                  spacing={16}
+                  wrap="wrap"
+                  xs={12}
+                >
+                  <div
+                    className="MuiGrid-typeItem-4 MuiGrid-grid-xs-12-39 MuiGrid-grid-sm-6-46"
+                  >
+                    <TextField
+                      InputProps={
+                        Object {
+                          "inputProps": Object {
+                            "data-test": "name",
+                          },
+                        }
+                      }
+                      format="DD-MM-YYYY"
+                      fullWidth={true}
+                      id="name"
+                      label="Filter by name"
+                      margin="normal"
+                      name="name"
+                      onChange={[Function]}
+                      required={false}
+                      select={false}
+                      value=""
+                    >
+                      <WithStyles(FormControl)
+                        format="DD-MM-YYYY"
+                        fullWidth={true}
+                        margin="normal"
+                        required={false}
+                      >
+                        <FormControl
+                          classes={
+                            Object {
+                              "fullWidth": "MuiFormControl-fullWidth-95",
+                              "marginDense": "MuiFormControl-marginDense-94",
+                              "marginNormal": "MuiFormControl-marginNormal-93",
+                              "root": "MuiFormControl-root-92",
+                            }
+                          }
+                          component="div"
+                          disabled={false}
+                          error={false}
+                          format="DD-MM-YYYY"
+                          fullWidth={true}
+                          margin="normal"
+                          required={false}
+                        >
+                          <div
+                            className="MuiFormControl-root-92 MuiFormControl-marginNormal-93 MuiFormControl-fullWidth-95"
+                            format="DD-MM-YYYY"
+                            onBlur={[Function]}
+                            onFocus={[Function]}
+                            required={false}
+                          >
+                            <WithStyles(InputLabel)
+                              htmlFor="name"
+                            >
+                              <InputLabel
+                                classes={
+                                  Object {
+                                    "animated": "MuiInputLabel-animated-100",
+                                    "disabled": "MuiInputLabel-disabled-101",
+                                    "formControl": "MuiInputLabel-formControl-97",
+                                    "labelDense": "MuiInputLabel-labelDense-98",
+                                    "root": "MuiInputLabel-root-96",
+                                    "shrink": "MuiInputLabel-shrink-99",
+                                  }
+                                }
+                                disableAnimation={false}
+                                disabled={false}
+                                htmlFor="name"
+                              >
+                                <WithStyles(FormLabel)
+                                  className="MuiInputLabel-root-96 MuiInputLabel-formControl-97 MuiInputLabel-animated-100"
+                                  data-shrink={false}
+                                  htmlFor="name"
+                                >
+                                  <FormLabel
+                                    className="MuiInputLabel-root-96 MuiInputLabel-formControl-97 MuiInputLabel-animated-100"
+                                    classes={
+                                      Object {
+                                        "disabled": "MuiFormLabel-disabled-105",
+                                        "error": "MuiFormLabel-error-104",
+                                        "focused": "MuiFormLabel-focused-103",
+                                        "root": "MuiFormLabel-root-102",
+                                      }
+                                    }
+                                    component="label"
+                                    data-shrink={false}
+                                    htmlFor="name"
+                                  >
+                                    <label
+                                      className="MuiFormLabel-root-102 MuiInputLabel-root-96 MuiInputLabel-formControl-97 MuiInputLabel-animated-100"
+                                      data-shrink={false}
+                                      htmlFor="name"
+                                    >
+                                      Filter by name
+                                    </label>
+                                  </FormLabel>
+                                </WithStyles(FormLabel)>
+                              </InputLabel>
+                            </WithStyles(InputLabel)>
+                            <WithStyles(Input)
+                              id="name"
+                              inputProps={
+                                Object {
+                                  "data-test": "name",
+                                }
+                              }
+                              name="name"
+                              onChange={[Function]}
+                              value=""
+                            >
+                              <Input
+                                classes={
+                                  Object {
+                                    "disabled": "MuiInput-disabled-111",
+                                    "error": "MuiInput-error-109",
+                                    "focused": "MuiInput-focused-110",
+                                    "formControl": "MuiInput-formControl-107",
+                                    "fullWidth": "MuiInput-fullWidth-114",
+                                    "inkbar": "MuiInput-inkbar-108",
+                                    "input": "MuiInput-input-115",
+                                    "inputDense": "MuiInput-inputDense-116",
+                                    "inputDisabled": "MuiInput-inputDisabled-117",
+                                    "inputMultiline": "MuiInput-inputMultiline-119",
+                                    "inputSearch": "MuiInput-inputSearch-120",
+                                    "inputSingleline": "MuiInput-inputSingleline-118",
+                                    "multiline": "MuiInput-multiline-113",
+                                    "root": "MuiInput-root-106",
+                                    "underline": "MuiInput-underline-112",
+                                  }
+                                }
+                                disableUnderline={false}
+                                fullWidth={false}
+                                id="name"
+                                inputProps={
+                                  Object {
+                                    "data-test": "name",
+                                  }
+                                }
+                                multiline={false}
+                                name="name"
+                                onChange={[Function]}
+                                type="text"
+                                value=""
+                              >
+                                <div
+                                  className="MuiInput-root-106 MuiInput-formControl-107 MuiInput-inkbar-108 MuiInput-underline-112"
+                                  onBlur={[Function]}
+                                  onFocus={[Function]}
+                                >
+                                  <input
+                                    aria-invalid={false}
+                                    aria-required={false}
+                                    className="MuiInput-input-115 MuiInput-inputSingleline-118"
+                                    data-test="name"
+                                    disabled={false}
+                                    id="name"
+                                    name="name"
+                                    onChange={[Function]}
+                                    type="text"
+                                    value=""
+                                  />
+                                </div>
+                              </Input>
+                            </WithStyles(Input)>
+                          </div>
+                        </FormControl>
+                      </WithStyles(FormControl)>
+                    </TextField>
+                  </div>
+                </Grid>
+              </GridWrapper>
+            </WithStyles(GridWrapper)>
+            <WithStyles(GridWrapper)
+              item={true}
+              sm={6}
+              xs={12}
+            >
+              <GridWrapper
+                classes={
+                  Object {
+                    "align-content-xs-center": "MuiGrid-align-content-xs-center-14",
+                    "align-content-xs-flex-end": "MuiGrid-align-content-xs-flex-end-16",
+                    "align-content-xs-flex-start": "MuiGrid-align-content-xs-flex-start-15",
+                    "align-content-xs-space-around": "MuiGrid-align-content-xs-space-around-18",
+                    "align-content-xs-space-between": "MuiGrid-align-content-xs-space-between-17",
+                    "align-items-xs-baseline": "MuiGrid-align-items-xs-baseline-13",
+                    "align-items-xs-center": "MuiGrid-align-items-xs-center-10",
+                    "align-items-xs-flex-end": "MuiGrid-align-items-xs-flex-end-12",
+                    "align-items-xs-flex-start": "MuiGrid-align-items-xs-flex-start-11",
+                    "direction-xs-column": "MuiGrid-direction-xs-column-5",
+                    "direction-xs-column-reverse": "MuiGrid-direction-xs-column-reverse-6",
+                    "direction-xs-row-reverse": "MuiGrid-direction-xs-row-reverse-7",
+                    "grid-lg": "MuiGrid-grid-lg-66",
+                    "grid-lg-1": "MuiGrid-grid-lg-1-67",
+                    "grid-lg-10": "MuiGrid-grid-lg-10-76",
+                    "grid-lg-11": "MuiGrid-grid-lg-11-77",
+                    "grid-lg-12": "MuiGrid-grid-lg-12-78",
+                    "grid-lg-2": "MuiGrid-grid-lg-2-68",
+                    "grid-lg-3": "MuiGrid-grid-lg-3-69",
+                    "grid-lg-4": "MuiGrid-grid-lg-4-70",
+                    "grid-lg-5": "MuiGrid-grid-lg-5-71",
+                    "grid-lg-6": "MuiGrid-grid-lg-6-72",
+                    "grid-lg-7": "MuiGrid-grid-lg-7-73",
+                    "grid-lg-8": "MuiGrid-grid-lg-8-74",
+                    "grid-lg-9": "MuiGrid-grid-lg-9-75",
+                    "grid-md": "MuiGrid-grid-md-53",
+                    "grid-md-1": "MuiGrid-grid-md-1-54",
+                    "grid-md-10": "MuiGrid-grid-md-10-63",
+                    "grid-md-11": "MuiGrid-grid-md-11-64",
+                    "grid-md-12": "MuiGrid-grid-md-12-65",
+                    "grid-md-2": "MuiGrid-grid-md-2-55",
+                    "grid-md-3": "MuiGrid-grid-md-3-56",
+                    "grid-md-4": "MuiGrid-grid-md-4-57",
+                    "grid-md-5": "MuiGrid-grid-md-5-58",
+                    "grid-md-6": "MuiGrid-grid-md-6-59",
+                    "grid-md-7": "MuiGrid-grid-md-7-60",
+                    "grid-md-8": "MuiGrid-grid-md-8-61",
+                    "grid-md-9": "MuiGrid-grid-md-9-62",
+                    "grid-sm": "MuiGrid-grid-sm-40",
+                    "grid-sm-1": "MuiGrid-grid-sm-1-41",
+                    "grid-sm-10": "MuiGrid-grid-sm-10-50",
+                    "grid-sm-11": "MuiGrid-grid-sm-11-51",
+                    "grid-sm-12": "MuiGrid-grid-sm-12-52",
+                    "grid-sm-2": "MuiGrid-grid-sm-2-42",
+                    "grid-sm-3": "MuiGrid-grid-sm-3-43",
+                    "grid-sm-4": "MuiGrid-grid-sm-4-44",
+                    "grid-sm-5": "MuiGrid-grid-sm-5-45",
+                    "grid-sm-6": "MuiGrid-grid-sm-6-46",
+                    "grid-sm-7": "MuiGrid-grid-sm-7-47",
+                    "grid-sm-8": "MuiGrid-grid-sm-8-48",
+                    "grid-sm-9": "MuiGrid-grid-sm-9-49",
+                    "grid-xl": "MuiGrid-grid-xl-79",
+                    "grid-xl-1": "MuiGrid-grid-xl-1-80",
+                    "grid-xl-10": "MuiGrid-grid-xl-10-89",
+                    "grid-xl-11": "MuiGrid-grid-xl-11-90",
+                    "grid-xl-12": "MuiGrid-grid-xl-12-91",
+                    "grid-xl-2": "MuiGrid-grid-xl-2-81",
+                    "grid-xl-3": "MuiGrid-grid-xl-3-82",
+                    "grid-xl-4": "MuiGrid-grid-xl-4-83",
+                    "grid-xl-5": "MuiGrid-grid-xl-5-84",
+                    "grid-xl-6": "MuiGrid-grid-xl-6-85",
+                    "grid-xl-7": "MuiGrid-grid-xl-7-86",
+                    "grid-xl-8": "MuiGrid-grid-xl-8-87",
+                    "grid-xl-9": "MuiGrid-grid-xl-9-88",
+                    "grid-xs": "MuiGrid-grid-xs-27",
+                    "grid-xs-1": "MuiGrid-grid-xs-1-28",
+                    "grid-xs-10": "MuiGrid-grid-xs-10-37",
+                    "grid-xs-11": "MuiGrid-grid-xs-11-38",
+                    "grid-xs-12": "MuiGrid-grid-xs-12-39",
+                    "grid-xs-2": "MuiGrid-grid-xs-2-29",
+                    "grid-xs-3": "MuiGrid-grid-xs-3-30",
+                    "grid-xs-4": "MuiGrid-grid-xs-4-31",
+                    "grid-xs-5": "MuiGrid-grid-xs-5-32",
+                    "grid-xs-6": "MuiGrid-grid-xs-6-33",
+                    "grid-xs-7": "MuiGrid-grid-xs-7-34",
+                    "grid-xs-8": "MuiGrid-grid-xs-8-35",
+                    "grid-xs-9": "MuiGrid-grid-xs-9-36",
+                    "justify-xs-center": "MuiGrid-justify-xs-center-19",
+                    "justify-xs-flex-end": "MuiGrid-justify-xs-flex-end-20",
+                    "justify-xs-space-around": "MuiGrid-justify-xs-space-around-22",
+                    "justify-xs-space-between": "MuiGrid-justify-xs-space-between-21",
+                    "spacing-xs-16": "MuiGrid-spacing-xs-16-24",
+                    "spacing-xs-24": "MuiGrid-spacing-xs-24-25",
+                    "spacing-xs-40": "MuiGrid-spacing-xs-40-26",
+                    "spacing-xs-8": "MuiGrid-spacing-xs-8-23",
+                    "typeContainer": "MuiGrid-typeContainer-3",
+                    "typeItem": "MuiGrid-typeItem-4",
+                    "wrap-xs-nowrap": "MuiGrid-wrap-xs-nowrap-8",
+                    "wrap-xs-wrap-reverse": "MuiGrid-wrap-xs-wrap-reverse-9",
+                  }
+                }
+                item={true}
+                sm={6}
+                xs={12}
+              >
+                <Grid
+                  alignContent="stretch"
+                  alignItems="stretch"
+                  classes={
+                    Object {
+                      "align-content-xs-center": "MuiGrid-align-content-xs-center-14",
+                      "align-content-xs-flex-end": "MuiGrid-align-content-xs-flex-end-16",
+                      "align-content-xs-flex-start": "MuiGrid-align-content-xs-flex-start-15",
+                      "align-content-xs-space-around": "MuiGrid-align-content-xs-space-around-18",
+                      "align-content-xs-space-between": "MuiGrid-align-content-xs-space-between-17",
+                      "align-items-xs-baseline": "MuiGrid-align-items-xs-baseline-13",
+                      "align-items-xs-center": "MuiGrid-align-items-xs-center-10",
+                      "align-items-xs-flex-end": "MuiGrid-align-items-xs-flex-end-12",
+                      "align-items-xs-flex-start": "MuiGrid-align-items-xs-flex-start-11",
+                      "direction-xs-column": "MuiGrid-direction-xs-column-5",
+                      "direction-xs-column-reverse": "MuiGrid-direction-xs-column-reverse-6",
+                      "direction-xs-row-reverse": "MuiGrid-direction-xs-row-reverse-7",
+                      "grid-lg": "MuiGrid-grid-lg-66",
+                      "grid-lg-1": "MuiGrid-grid-lg-1-67",
+                      "grid-lg-10": "MuiGrid-grid-lg-10-76",
+                      "grid-lg-11": "MuiGrid-grid-lg-11-77",
+                      "grid-lg-12": "MuiGrid-grid-lg-12-78",
+                      "grid-lg-2": "MuiGrid-grid-lg-2-68",
+                      "grid-lg-3": "MuiGrid-grid-lg-3-69",
+                      "grid-lg-4": "MuiGrid-grid-lg-4-70",
+                      "grid-lg-5": "MuiGrid-grid-lg-5-71",
+                      "grid-lg-6": "MuiGrid-grid-lg-6-72",
+                      "grid-lg-7": "MuiGrid-grid-lg-7-73",
+                      "grid-lg-8": "MuiGrid-grid-lg-8-74",
+                      "grid-lg-9": "MuiGrid-grid-lg-9-75",
+                      "grid-md": "MuiGrid-grid-md-53",
+                      "grid-md-1": "MuiGrid-grid-md-1-54",
+                      "grid-md-10": "MuiGrid-grid-md-10-63",
+                      "grid-md-11": "MuiGrid-grid-md-11-64",
+                      "grid-md-12": "MuiGrid-grid-md-12-65",
+                      "grid-md-2": "MuiGrid-grid-md-2-55",
+                      "grid-md-3": "MuiGrid-grid-md-3-56",
+                      "grid-md-4": "MuiGrid-grid-md-4-57",
+                      "grid-md-5": "MuiGrid-grid-md-5-58",
+                      "grid-md-6": "MuiGrid-grid-md-6-59",
+                      "grid-md-7": "MuiGrid-grid-md-7-60",
+                      "grid-md-8": "MuiGrid-grid-md-8-61",
+                      "grid-md-9": "MuiGrid-grid-md-9-62",
+                      "grid-sm": "MuiGrid-grid-sm-40",
+                      "grid-sm-1": "MuiGrid-grid-sm-1-41",
+                      "grid-sm-10": "MuiGrid-grid-sm-10-50",
+                      "grid-sm-11": "MuiGrid-grid-sm-11-51",
+                      "grid-sm-12": "MuiGrid-grid-sm-12-52",
+                      "grid-sm-2": "MuiGrid-grid-sm-2-42",
+                      "grid-sm-3": "MuiGrid-grid-sm-3-43",
+                      "grid-sm-4": "MuiGrid-grid-sm-4-44",
+                      "grid-sm-5": "MuiGrid-grid-sm-5-45",
+                      "grid-sm-6": "MuiGrid-grid-sm-6-46",
+                      "grid-sm-7": "MuiGrid-grid-sm-7-47",
+                      "grid-sm-8": "MuiGrid-grid-sm-8-48",
+                      "grid-sm-9": "MuiGrid-grid-sm-9-49",
+                      "grid-xl": "MuiGrid-grid-xl-79",
+                      "grid-xl-1": "MuiGrid-grid-xl-1-80",
+                      "grid-xl-10": "MuiGrid-grid-xl-10-89",
+                      "grid-xl-11": "MuiGrid-grid-xl-11-90",
+                      "grid-xl-12": "MuiGrid-grid-xl-12-91",
+                      "grid-xl-2": "MuiGrid-grid-xl-2-81",
+                      "grid-xl-3": "MuiGrid-grid-xl-3-82",
+                      "grid-xl-4": "MuiGrid-grid-xl-4-83",
+                      "grid-xl-5": "MuiGrid-grid-xl-5-84",
+                      "grid-xl-6": "MuiGrid-grid-xl-6-85",
+                      "grid-xl-7": "MuiGrid-grid-xl-7-86",
+                      "grid-xl-8": "MuiGrid-grid-xl-8-87",
+                      "grid-xl-9": "MuiGrid-grid-xl-9-88",
+                      "grid-xs": "MuiGrid-grid-xs-27",
+                      "grid-xs-1": "MuiGrid-grid-xs-1-28",
+                      "grid-xs-10": "MuiGrid-grid-xs-10-37",
+                      "grid-xs-11": "MuiGrid-grid-xs-11-38",
+                      "grid-xs-12": "MuiGrid-grid-xs-12-39",
+                      "grid-xs-2": "MuiGrid-grid-xs-2-29",
+                      "grid-xs-3": "MuiGrid-grid-xs-3-30",
+                      "grid-xs-4": "MuiGrid-grid-xs-4-31",
+                      "grid-xs-5": "MuiGrid-grid-xs-5-32",
+                      "grid-xs-6": "MuiGrid-grid-xs-6-33",
+                      "grid-xs-7": "MuiGrid-grid-xs-7-34",
+                      "grid-xs-8": "MuiGrid-grid-xs-8-35",
+                      "grid-xs-9": "MuiGrid-grid-xs-9-36",
+                      "justify-xs-center": "MuiGrid-justify-xs-center-19",
+                      "justify-xs-flex-end": "MuiGrid-justify-xs-flex-end-20",
+                      "justify-xs-space-around": "MuiGrid-justify-xs-space-around-22",
+                      "justify-xs-space-between": "MuiGrid-justify-xs-space-between-21",
+                      "spacing-xs-16": "MuiGrid-spacing-xs-16-24",
+                      "spacing-xs-24": "MuiGrid-spacing-xs-24-25",
+                      "spacing-xs-40": "MuiGrid-spacing-xs-40-26",
+                      "spacing-xs-8": "MuiGrid-spacing-xs-8-23",
+                      "typeContainer": "MuiGrid-typeContainer-3",
+                      "typeItem": "MuiGrid-typeItem-4",
+                      "wrap-xs-nowrap": "MuiGrid-wrap-xs-nowrap-8",
+                      "wrap-xs-wrap-reverse": "MuiGrid-wrap-xs-wrap-reverse-9",
+                    }
+                  }
+                  component="div"
+                  container={false}
+                  direction="row"
+                  item={true}
+                  justify="flex-start"
+                  sm={6}
+                  spacing={16}
+                  wrap="wrap"
+                  xs={12}
+                >
+                  <div
+                    className="MuiGrid-typeItem-4 MuiGrid-grid-xs-12-39 MuiGrid-grid-sm-6-46"
+                  >
+                    <p>
+                      Price starts from : 
+                      1
+                    </p>
+                    <ComponentEnhancer(undefined)
+                      activeDotStyle={Object {}}
+                      className=""
+                      data-test="price"
+                      defaultValue={1}
+                      disabled={false}
+                      dotStyle={Object {}}
+                      dots={false}
+                      handle={[Function]}
+                      handleStyle={
+                        Array [
+                          Object {},
+                        ]
+                      }
+                      included={true}
+                      marks={Object {}}
+                      max={1}
+                      min={0}
+                      name="price"
+                      onAfterChange={[Function]}
+                      onBeforeChange={[Function]}
+                      onChange={[Function]}
+                      prefixCls="rc-slider"
+                      railStyle={Object {}}
+                      step={1}
+                      trackStyle={
+                        Array [
+                          Object {},
+                        ]
+                      }
+                      value={1}
+                      vertical={false}
+                    >
+                      <div
+                        className="rc-slider"
+                        onBlur={[Function]}
+                        onFocus={[Function]}
+                        onKeyDown={[Function]}
+                        onMouseDown={[Function]}
+                        onMouseUp={[Function]}
+                        onTouchStart={[Function]}
+                      >
+                        <div
+                          className="rc-slider-rail"
+                          style={Object {}}
+                        />
+                        <Track
+                          className="rc-slider-track"
+                          included={true}
+                          length={100}
+                          offset={0}
+                          style={Object {}}
+                          vertical={false}
+                        >
+                          <div
+                            className="rc-slider-track"
+                            style={
+                              Object {
+                                "left": "0%",
+                                "visibility": "visible",
+                                "width": "100%",
+                              }
+                            }
+                          />
+                        </Track>
+                        <Steps
+                          activeDotStyle={Object {}}
+                          dotStyle={Object {}}
+                          dots={false}
+                          included={true}
+                          lowerBound={0}
+                          marks={Object {}}
+                          max={1}
+                          min={0}
+                          prefixCls="rc-slider"
+                          step={1}
+                          upperBound={1}
+                          vertical={false}
+                        >
+                          <div
+                            className="rc-slider-step"
+                          />
+                        </Steps>
+                        <Handle
+                          className="rc-slider-handle"
+                          disabled={false}
+                          key="0"
+                          max={1}
+                          min={0}
+                          offset={100}
+                          style={Object {}}
+                          value={1}
+                          vertical={false}
+                        >
+                          <div
+                            aria-disabled={false}
+                            aria-valuemax={1}
+                            aria-valuemin={0}
+                            aria-valuenow={1}
+                            className="rc-slider-handle"
+                            role="slider"
+                            style={
+                              Object {
+                                "left": "100%",
+                              }
+                            }
+                            tabIndex={0}
+                          />
+                        </Handle>
+                        <Marks
+                          className="rc-slider-mark"
+                          included={true}
+                          lowerBound={0}
+                          marks={Object {}}
+                          max={1}
+                          min={0}
+                          upperBound={1}
+                          vertical={false}
+                        >
+                          <div
+                            className="rc-slider-mark"
+                          />
+                        </Marks>
+                      </div>
+                    </ComponentEnhancer(undefined)>
+                  </div>
+                </Grid>
+              </GridWrapper>
+            </WithStyles(GridWrapper)>
+          </div>
+        </Grid>
+      </GridWrapper>
+    </WithStyles(GridWrapper)>
+  </Filters>
+</WithStyles(Filters)>
+`;

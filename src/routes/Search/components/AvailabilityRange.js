@@ -82,6 +82,7 @@ class AvailabilityRange extends Component {
             Search
           </Button>
           <Button
+            name="clear"
             data-test="clear"
             disabled={!end && !start}
             color="default"

@@ -36,11 +36,16 @@ class HotelCard extends React.Component {
               {name[0]}
             </Avatar>
           }
-          title={name}
-          subheader={city}
+          title={<span data-test="name">{name}</span>}
+          subheader={<span data-test="city">{city}</span>}
         />
         <CardContent>
-          <Typography component="p" type="display1" align="left">
+          <Typography
+            component="p"
+            type="display1"
+            align="left"
+            data-test="price"
+          >
             {price} <span className={classes.currency}>AED</span>
           </Typography>
         </CardContent>

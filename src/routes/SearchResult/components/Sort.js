@@ -15,6 +15,7 @@ const styles = theme => ({
 const Sort = ({ classes, onChange, sortBy }) => (
   <div className={classes.container}>
     <Button
+      data-test="name"
       color={sortBy === "name" ? "primary" : "default"}
       className={classes.button}
       onClick={e => onChange("name")}
@@ -22,6 +23,7 @@ const Sort = ({ classes, onChange, sortBy }) => (
       Sort By Name
     </Button>
     <Button
+      data-test="price"
       color={sortBy === "price" ? "primary" : "default"}
       className={classes.button}
       onClick={e => onChange("price")}

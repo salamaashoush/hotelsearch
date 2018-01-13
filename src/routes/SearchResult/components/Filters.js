@@ -27,6 +27,12 @@ const Filters = ({
       <TextField
         fullWidth
         id="name"
+        format="DD-MM-YYYY"
+        InputProps={{
+          inputProps: {
+            "data-test": "name"
+          }
+        }}
         label="Filter by name"
         name="name"
         className={classes.textField}
@@ -39,6 +45,7 @@ const Filters = ({
       <p>Price starts from : {price}</p>
       <Slider
         name="price"
+        data-test="price"
         min={min}
         max={max}
         defaultValue={1}

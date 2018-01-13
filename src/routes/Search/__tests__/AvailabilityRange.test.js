@@ -1,6 +1,6 @@
 import React from "react";
-// import { mount } from "enzyme";
-import { createMount } from "material-ui/test-utils";
+import { mount } from "enzyme";
+// import { createMount } from "material-ui/test-utils";
 
 import AvailabilityRange from "../components/AvailabilityRange";
 
@@ -12,7 +12,7 @@ const setup = () => {
     range: { start: new Date("10-10-2020"), end: new Date("10-15-2020") },
     history: { push: jest.fn() }
   };
-  let mount = createMount();
+  // let mount = createMount();
   const wrapper = mount(<AvailabilityRange {...props} />);
 
   return {
@@ -20,40 +20,30 @@ const setup = () => {
     wrapper
   };
 };
-
+const wrapper = setup().wrapper;
+const props = setup().props;
 describe(">>> Saerch > AvailabilityRange", () => {
-  let wrapper, props;
-  beforeEach(() => {
-    wrapper = setup().wrapper;
-    props = setup().props;
-  });
   it("should render with start data & end date values", () => {
     expect(wrapper).toMatchSnapshot();
   });
 
-  it("should open date picker when clicking on the input", () => {
-    wrapper.find(`input[data-test="start"]`).simulate("click");
+  it("should change labels to From/To when range start and end is null", () => {
+    wrapper.setProps({ range: { start: null, end: null } });
     expect(wrapper).toMatchSnapshot();
+    let start = wrapper.find(`input[data-test="start"]`);
+    let end = wrapper.find(`input[data-test="end"]`);
+    expect(start.props().value).toEqual("From");
+    expect(end.props().value).toEqual("To");
   });
 
-  it("should change the value when pick date", () => {
-    expect(wrapper).toMatchSnapshot("1. before clicking start date");
-    const start = wrapper.find(`input[data-test="start"]`);
-    start.simulate("click");
-    wrapper
-      .find(`Day`)
-      .first()
-      .simulate("click");
-    expect(wrapper).toMatchSnapshot("2. after clicking start date");
-    wrapper.find(`button[aria-label="OK"]`).simulate("click");
-    expect(props.onChange).toHaveBeenCalled();
-  });
-
-  it("should clear the value when clicking cleare", () => {
+  it("should change value when props is changed", () => {
+    wrapper.setProps({
+      range: { start: new Date("11-30-2020"), end: new Date("05-11-2020") }
+    });
     expect(wrapper).toMatchSnapshot();
-    const start = wrapper.find(`button[data-test="clear"]`);
-    start.simulate("click");
-    expect(props.onChange).toHaveBeenCalledTimes(1);
-    expect(props.range).toEqual({ start: null, end: null });
+    let start = wrapper.find(`input[data-test="start"]`);
+    let end = wrapper.find(`input[data-test="end"]`);
+    expect(start.props().value).toEqual("30-11-2020");
+    expect(end.props().value).toEqual("11-05-2020");
   });
 });
