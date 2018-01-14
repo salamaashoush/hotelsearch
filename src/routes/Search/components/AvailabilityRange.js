@@ -13,6 +13,12 @@ const styles = theme => ({
 });
 
 class AvailabilityRange extends Component {
+  state = {
+    validation: {
+      isValid: value => value !== null,
+      errorMessege: "this field is required"
+    }
+  };
   handleStartChange = date => {
     this.props.onChange({ start: date });
   };
@@ -22,14 +28,20 @@ class AvailabilityRange extends Component {
   };
 
   handleSearchClick = event => {
-    this.props.history.push("/result");
-    this.props.search(this.props.range);
+    if (
+      this.state.validation.isValid(this.props.range.start) &&
+      this.state.validation.isValid(this.props.range.end)
+    ) {
+      this.props.history.push("/result");
+      this.props.search(this.props.range);
+    }
   };
   handleClearClick = event => {
     this.props.onChange({ start: null, end: null });
   };
 
   render() {
+    const { validation } = this.state;
     const { classes, range: { start, end } } = this.props;
     return (
       <Grid container justify="center">
@@ -38,12 +50,15 @@ class AvailabilityRange extends Component {
             value={start}
             onChange={this.handleStartChange}
             invalidLabel="Pick a valid date"
-            emptyLabel="From"
+            emptyLabel={
+              validation.isValid(start) ? "From" : validation.errorMessege
+            }
             format="DD-MM-YYYY"
             InputProps={{
               inputProps: {
                 "data-test": "start"
               },
+              error: !validation.isValid(start),
               endAdornment: (
                 <InputAdornment position="end">
                   <IconButton> date_range </IconButton>
@@ -57,12 +72,15 @@ class AvailabilityRange extends Component {
             value={end}
             onChange={this.handleEndChange}
             invalidLabel="Pick a valid date"
-            emptyLabel="To"
+            emptyLabel={
+              validation.isValid(end) ? "To" : validation.errorMessege
+            }
             format="DD-MM-YYYY"
             InputProps={{
               inputProps: {
                 "data-test": "end"
               },
+              error: !validation.isValid(end),
               endAdornment: (
                 <InputAdornment position="end">
                   <IconButton> date_range </IconButton>
