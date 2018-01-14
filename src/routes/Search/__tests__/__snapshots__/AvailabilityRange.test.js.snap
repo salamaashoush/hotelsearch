@@ -461,13 +461,14 @@ exports[`>>> Saerch > AvailabilityRange should change labels to From/To when ran
                                  date_range 
                             </WithStyles(IconButton)>
                         </WithStyles(InputAdornment)>,
+                          "error": true,
                           "inputProps": Object {
                             "data-test": "start",
                           },
                         }
                       }
                       autoOk={false}
-                      emptyLabel="From"
+                      emptyLabel="this field is required"
                       format="DD-MM-YYYY"
                       invalidLabel="Pick a valid date"
                       onChange={[Function]}
@@ -505,6 +506,7 @@ exports[`>>> Saerch > AvailabilityRange should change labels to From/To when ran
                                    date_range 
                               </WithStyles(IconButton)>
                           </WithStyles(InputAdornment)>,
+                            "error": true,
                             "inputProps": Object {
                               "data-test": "start",
                             },
@@ -512,7 +514,7 @@ exports[`>>> Saerch > AvailabilityRange should change labels to From/To when ran
                         }
                         clearable={false}
                         dialogContentClassName=""
-                        emptyLabel="From"
+                        emptyLabel="this field is required"
                         format="DD-MM-YYYY"
                         invalidLabel="Pick a valid date"
                         onAccept={[Function]}
@@ -531,6 +533,7 @@ exports[`>>> Saerch > AvailabilityRange should change labels to From/To when ran
                                      date_range 
                                 </WithStyles(IconButton)>
                             </WithStyles(InputAdornment)>,
+                              "error": true,
                               "inputProps": Object {
                                 "data-test": "start",
                               },
@@ -538,7 +541,7 @@ exports[`>>> Saerch > AvailabilityRange should change labels to From/To when ran
                           }
                           clearable={false}
                           disabled={false}
-                          emptyLabel="From"
+                          emptyLabel="this field is required"
                           format="DD-MM-YYYY"
                           invalidDateMessage="Invalid Date Format"
                           invalidLabel="Pick a valid date"
@@ -559,6 +562,7 @@ exports[`>>> Saerch > AvailabilityRange should change labels to From/To when ran
                                        date_range 
                                   </WithStyles(IconButton)>
                               </WithStyles(InputAdornment)>,
+                                "error": true,
                                 "inputComponent": [Function],
                                 "inputProps": Object {
                                   "data-test": "start",
@@ -574,7 +578,7 @@ exports[`>>> Saerch > AvailabilityRange should change labels to From/To when ran
                             onKeyPress={[Function]}
                             required={false}
                             select={false}
-                            value="From"
+                            value="this field is required"
                           >
                             <WithStyles(FormControl)
                               error={false}
@@ -621,6 +625,7 @@ exports[`>>> Saerch > AvailabilityRange should change labels to From/To when ran
                                         </WithStyles(IconButton)>
                                       </WithStyles(InputAdornment)>
                                     }
+                                    error={true}
                                     inputComponent={[Function]}
                                     inputProps={
                                       Object {
@@ -628,7 +633,7 @@ exports[`>>> Saerch > AvailabilityRange should change labels to From/To when ran
                                       }
                                     }
                                     onChange={[Function]}
-                                    value="From"
+                                    value="this field is required"
                                   >
                                     <Input
                                       classes={
@@ -661,6 +666,7 @@ exports[`>>> Saerch > AvailabilityRange should change labels to From/To when ran
                                           </WithStyles(IconButton)>
                                         </WithStyles(InputAdornment)>
                                       }
+                                      error={true}
                                       fullWidth={false}
                                       inputComponent={[Function]}
                                       inputProps={
@@ -671,32 +677,32 @@ exports[`>>> Saerch > AvailabilityRange should change labels to From/To when ran
                                       multiline={false}
                                       onChange={[Function]}
                                       type="text"
-                                      value="From"
+                                      value="this field is required"
                                     >
                                       <div
-                                        className="MuiInput-root-95 MuiInput-formControl-96 MuiInput-inkbar-97 MuiInput-underline-101"
+                                        className="MuiInput-root-95 MuiInput-error-98 MuiInput-formControl-96 MuiInput-inkbar-97 MuiInput-underline-101"
                                         onBlur={[Function]}
                                         onFocus={[Function]}
                                       >
                                         <Input
-                                          aria-invalid={false}
+                                          aria-invalid={true}
                                           aria-required={false}
                                           className="MuiInput-input-104 MuiInput-inputSingleline-107"
                                           data-test="start"
                                           disabled={false}
                                           onChange={[Function]}
                                           type="text"
-                                          value="From"
+                                          value="this field is required"
                                         >
                                           <input
-                                            aria-invalid={false}
+                                            aria-invalid={true}
                                             aria-required={false}
                                             className="MuiInput-input-104 MuiInput-inputSingleline-107"
                                             data-test="start"
                                             disabled={false}
                                             onChange={[Function]}
                                             type="text"
-                                            value="From"
+                                            value="this field is required"
                                           />
                                         </Input>
                                         <WithStyles(InputAdornment)
@@ -1198,13 +1204,14 @@ exports[`>>> Saerch > AvailabilityRange should change labels to From/To when ran
                                  date_range 
                             </WithStyles(IconButton)>
                         </WithStyles(InputAdornment)>,
+                          "error": true,
                           "inputProps": Object {
                             "data-test": "end",
                           },
                         }
                       }
                       autoOk={false}
-                      emptyLabel="To"
+                      emptyLabel="this field is required"
                       format="DD-MM-YYYY"
                       invalidLabel="Pick a valid date"
                       onChange={[Function]}
@@ -1242,6 +1249,7 @@ exports[`>>> Saerch > AvailabilityRange should change labels to From/To when ran
                                    date_range 
                               </WithStyles(IconButton)>
                           </WithStyles(InputAdornment)>,
+                            "error": true,
                             "inputProps": Object {
                               "data-test": "end",
                             },
@@ -1249,7 +1257,7 @@ exports[`>>> Saerch > AvailabilityRange should change labels to From/To when ran
                         }
                         clearable={false}
                         dialogContentClassName=""
-                        emptyLabel="To"
+                        emptyLabel="this field is required"
                         format="DD-MM-YYYY"
                         invalidLabel="Pick a valid date"
                         onAccept={[Function]}
@@ -1268,6 +1276,7 @@ exports[`>>> Saerch > AvailabilityRange should change labels to From/To when ran
                                      date_range 
                                 </WithStyles(IconButton)>
                             </WithStyles(InputAdornment)>,
+                              "error": true,
                               "inputProps": Object {
                                 "data-test": "end",
                               },
@@ -1275,7 +1284,7 @@ exports[`>>> Saerch > AvailabilityRange should change labels to From/To when ran
                           }
                           clearable={false}
                           disabled={false}
-                          emptyLabel="To"
+                          emptyLabel="this field is required"
                           format="DD-MM-YYYY"
                           invalidDateMessage="Invalid Date Format"
                           invalidLabel="Pick a valid date"
@@ -1296,6 +1305,7 @@ exports[`>>> Saerch > AvailabilityRange should change labels to From/To when ran
                                        date_range 
                                   </WithStyles(IconButton)>
                               </WithStyles(InputAdornment)>,
+                                "error": true,
                                 "inputComponent": [Function],
                                 "inputProps": Object {
                                   "data-test": "end",
@@ -1311,7 +1321,7 @@ exports[`>>> Saerch > AvailabilityRange should change labels to From/To when ran
                             onKeyPress={[Function]}
                             required={false}
                             select={false}
-                            value="To"
+                            value="this field is required"
                           >
                             <WithStyles(FormControl)
                               error={false}
@@ -1358,6 +1368,7 @@ exports[`>>> Saerch > AvailabilityRange should change labels to From/To when ran
                                         </WithStyles(IconButton)>
                                       </WithStyles(InputAdornment)>
                                     }
+                                    error={true}
                                     inputComponent={[Function]}
                                     inputProps={
                                       Object {
@@ -1365,7 +1376,7 @@ exports[`>>> Saerch > AvailabilityRange should change labels to From/To when ran
                                       }
                                     }
                                     onChange={[Function]}
-                                    value="To"
+                                    value="this field is required"
                                   >
                                     <Input
                                       classes={
@@ -1398,6 +1409,7 @@ exports[`>>> Saerch > AvailabilityRange should change labels to From/To when ran
                                           </WithStyles(IconButton)>
                                         </WithStyles(InputAdornment)>
                                       }
+                                      error={true}
                                       fullWidth={false}
                                       inputComponent={[Function]}
                                       inputProps={
@@ -1408,32 +1420,32 @@ exports[`>>> Saerch > AvailabilityRange should change labels to From/To when ran
                                       multiline={false}
                                       onChange={[Function]}
                                       type="text"
-                                      value="To"
+                                      value="this field is required"
                                     >
                                       <div
-                                        className="MuiInput-root-95 MuiInput-formControl-96 MuiInput-inkbar-97 MuiInput-underline-101"
+                                        className="MuiInput-root-95 MuiInput-error-98 MuiInput-formControl-96 MuiInput-inkbar-97 MuiInput-underline-101"
                                         onBlur={[Function]}
                                         onFocus={[Function]}
                                       >
                                         <Input
-                                          aria-invalid={false}
+                                          aria-invalid={true}
                                           aria-required={false}
                                           className="MuiInput-input-104 MuiInput-inputSingleline-107"
                                           data-test="end"
                                           disabled={false}
                                           onChange={[Function]}
                                           type="text"
-                                          value="To"
+                                          value="this field is required"
                                         >
                                           <input
-                                            aria-invalid={false}
+                                            aria-invalid={true}
                                             aria-required={false}
                                             className="MuiInput-input-104 MuiInput-inputSingleline-107"
                                             data-test="end"
                                             disabled={false}
                                             onChange={[Function]}
                                             type="text"
-                                            value="To"
+                                            value="this field is required"
                                           />
                                         </Input>
                                         <WithStyles(InputAdornment)
@@ -2628,6 +2640,7 @@ exports[`>>> Saerch > AvailabilityRange should change value when props is change
                                  date_range 
                             </WithStyles(IconButton)>
                         </WithStyles(InputAdornment)>,
+                          "error": false,
                           "inputProps": Object {
                             "data-test": "start",
                           },
@@ -2672,6 +2685,7 @@ exports[`>>> Saerch > AvailabilityRange should change value when props is change
                                    date_range 
                               </WithStyles(IconButton)>
                           </WithStyles(InputAdornment)>,
+                            "error": false,
                             "inputProps": Object {
                               "data-test": "start",
                             },
@@ -2698,6 +2712,7 @@ exports[`>>> Saerch > AvailabilityRange should change value when props is change
                                      date_range 
                                 </WithStyles(IconButton)>
                             </WithStyles(InputAdornment)>,
+                              "error": false,
                               "inputProps": Object {
                                 "data-test": "start",
                               },
@@ -2726,6 +2741,7 @@ exports[`>>> Saerch > AvailabilityRange should change value when props is change
                                        date_range 
                                   </WithStyles(IconButton)>
                               </WithStyles(InputAdornment)>,
+                                "error": false,
                                 "inputComponent": [Function],
                                 "inputProps": Object {
                                   "data-test": "start",
@@ -2788,6 +2804,7 @@ exports[`>>> Saerch > AvailabilityRange should change value when props is change
                                         </WithStyles(IconButton)>
                                       </WithStyles(InputAdornment)>
                                     }
+                                    error={false}
                                     inputComponent={[Function]}
                                     inputProps={
                                       Object {
@@ -2828,6 +2845,7 @@ exports[`>>> Saerch > AvailabilityRange should change value when props is change
                                           </WithStyles(IconButton)>
                                         </WithStyles(InputAdornment)>
                                       }
+                                      error={false}
                                       fullWidth={false}
                                       inputComponent={[Function]}
                                       inputProps={
@@ -3365,6 +3383,7 @@ exports[`>>> Saerch > AvailabilityRange should change value when props is change
                                  date_range 
                             </WithStyles(IconButton)>
                         </WithStyles(InputAdornment)>,
+                          "error": false,
                           "inputProps": Object {
                             "data-test": "end",
                           },
@@ -3409,6 +3428,7 @@ exports[`>>> Saerch > AvailabilityRange should change value when props is change
                                    date_range 
                               </WithStyles(IconButton)>
                           </WithStyles(InputAdornment)>,
+                            "error": false,
                             "inputProps": Object {
                               "data-test": "end",
                             },
@@ -3435,6 +3455,7 @@ exports[`>>> Saerch > AvailabilityRange should change value when props is change
                                      date_range 
                                 </WithStyles(IconButton)>
                             </WithStyles(InputAdornment)>,
+                              "error": false,
                               "inputProps": Object {
                                 "data-test": "end",
                               },
@@ -3463,6 +3484,7 @@ exports[`>>> Saerch > AvailabilityRange should change value when props is change
                                        date_range 
                                   </WithStyles(IconButton)>
                               </WithStyles(InputAdornment)>,
+                                "error": false,
                                 "inputComponent": [Function],
                                 "inputProps": Object {
                                   "data-test": "end",
@@ -3525,6 +3547,7 @@ exports[`>>> Saerch > AvailabilityRange should change value when props is change
                                         </WithStyles(IconButton)>
                                       </WithStyles(InputAdornment)>
                                     }
+                                    error={false}
                                     inputComponent={[Function]}
                                     inputProps={
                                       Object {
@@ -3565,6 +3588,7 @@ exports[`>>> Saerch > AvailabilityRange should change value when props is change
                                           </WithStyles(IconButton)>
                                         </WithStyles(InputAdornment)>
                                       }
+                                      error={false}
                                       fullWidth={false}
                                       inputComponent={[Function]}
                                       inputProps={
@@ -4826,6 +4850,7 @@ exports[`>>> Saerch > AvailabilityRange should render with start data & end date
                                  date_range 
                             </WithStyles(IconButton)>
                         </WithStyles(InputAdornment)>,
+                          "error": false,
                           "inputProps": Object {
                             "data-test": "start",
                           },
@@ -4870,6 +4895,7 @@ exports[`>>> Saerch > AvailabilityRange should render with start data & end date
                                    date_range 
                               </WithStyles(IconButton)>
                           </WithStyles(InputAdornment)>,
+                            "error": false,
                             "inputProps": Object {
                               "data-test": "start",
                             },
@@ -4896,6 +4922,7 @@ exports[`>>> Saerch > AvailabilityRange should render with start data & end date
                                      date_range 
                                 </WithStyles(IconButton)>
                             </WithStyles(InputAdornment)>,
+                              "error": false,
                               "inputProps": Object {
                                 "data-test": "start",
                               },
@@ -4924,6 +4951,7 @@ exports[`>>> Saerch > AvailabilityRange should render with start data & end date
                                        date_range 
                                   </WithStyles(IconButton)>
                               </WithStyles(InputAdornment)>,
+                                "error": false,
                                 "inputComponent": [Function],
                                 "inputProps": Object {
                                   "data-test": "start",
@@ -4986,6 +5014,7 @@ exports[`>>> Saerch > AvailabilityRange should render with start data & end date
                                         </WithStyles(IconButton)>
                                       </WithStyles(InputAdornment)>
                                     }
+                                    error={false}
                                     inputComponent={[Function]}
                                     inputProps={
                                       Object {
@@ -5026,6 +5055,7 @@ exports[`>>> Saerch > AvailabilityRange should render with start data & end date
                                           </WithStyles(IconButton)>
                                         </WithStyles(InputAdornment)>
                                       }
+                                      error={false}
                                       fullWidth={false}
                                       inputComponent={[Function]}
                                       inputProps={
@@ -5563,6 +5593,7 @@ exports[`>>> Saerch > AvailabilityRange should render with start data & end date
                                  date_range 
                             </WithStyles(IconButton)>
                         </WithStyles(InputAdornment)>,
+                          "error": false,
                           "inputProps": Object {
                             "data-test": "end",
                           },
@@ -5607,6 +5638,7 @@ exports[`>>> Saerch > AvailabilityRange should render with start data & end date
                                    date_range 
                               </WithStyles(IconButton)>
                           </WithStyles(InputAdornment)>,
+                            "error": false,
                             "inputProps": Object {
                               "data-test": "end",
                             },
@@ -5633,6 +5665,7 @@ exports[`>>> Saerch > AvailabilityRange should render with start data & end date
                                      date_range 
                                 </WithStyles(IconButton)>
                             </WithStyles(InputAdornment)>,
+                              "error": false,
                               "inputProps": Object {
                                 "data-test": "end",
                               },
@@ -5661,6 +5694,7 @@ exports[`>>> Saerch > AvailabilityRange should render with start data & end date
                                        date_range 
                                   </WithStyles(IconButton)>
                               </WithStyles(InputAdornment)>,
+                                "error": false,
                                 "inputComponent": [Function],
                                 "inputProps": Object {
                                   "data-test": "end",
@@ -5723,6 +5757,7 @@ exports[`>>> Saerch > AvailabilityRange should render with start data & end date
                                         </WithStyles(IconButton)>
                                       </WithStyles(InputAdornment)>
                                     }
+                                    error={false}
                                     inputComponent={[Function]}
                                     inputProps={
                                       Object {
@@ -5763,6 +5798,7 @@ exports[`>>> Saerch > AvailabilityRange should render with start data & end date
                                           </WithStyles(IconButton)>
                                         </WithStyles(InputAdornment)>
                                       }
+                                      error={false}
                                       fullWidth={false}
                                       inputComponent={[Function]}
                                       inputProps={

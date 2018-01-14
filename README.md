@@ -74,9 +74,15 @@ You will also see any lint errors in the console.
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.<br>
+Launches the uint test runner in the interactive watch mode.<br>
 
-I only wrote simple unit test for dump components 
+I wrote simple unit test for dump components
+
+### `npm e2e`
+
+Launches cypress e2e test runner in gui
+
+please start the server before you run it
 
 ### `npm run build`
 

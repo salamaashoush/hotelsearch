@@ -35,8 +35,8 @@ describe(">>> Saerch > AvailabilityRange", () => {
     expect(wrapper).toMatchSnapshot();
     let start = wrapper.find(`input[data-test="start"]`);
     let end = wrapper.find(`input[data-test="end"]`);
-    expect(start.props().value).toEqual("From");
-    expect(end.props().value).toEqual("To");
+    expect(start.props().value).toEqual("this field is required");
+    expect(end.props().value).toEqual("this field is required");
   });
 
   it("should change value when props is changed", () => {
