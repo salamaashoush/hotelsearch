@@ -78,7 +78,7 @@ Launches the uint test runner in the interactive watch mode.<br>
 
 I wrote simple unit test for dump components
 
-### `npm e2e`
+### `npm run e2e`
 
 Launches cypress e2e test runner in gui
 
