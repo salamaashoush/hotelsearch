@@ -12,7 +12,7 @@ const PlaceHolder = props => (
     </Grid>
     <Grid item xs={12} sm={4}>
       <Typography type="title">
-        Premature optimization is the root of all eavil!
+        Premature optimization is the root of all evil!
       </Typography>
     </Grid>
   </Grid>
